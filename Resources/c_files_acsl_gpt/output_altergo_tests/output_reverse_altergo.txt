@@ -1,0 +1,13 @@
+[kernel] Parsing reverse.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] reverse.c:10: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Timeout] typed_reverse_assigns_part2 (Qed 0.78ms) (Alt-Ergo)
+[wp] [Timeout] typed_reverse_terminates (Qed 1ms) (Alt-Ergo)
+[wp] [Timeout] typed_reverse_ensures (Qed 1ms) (Alt-Ergo)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (0.78ms-0.83ms-1ms)
+  Timeout:         3

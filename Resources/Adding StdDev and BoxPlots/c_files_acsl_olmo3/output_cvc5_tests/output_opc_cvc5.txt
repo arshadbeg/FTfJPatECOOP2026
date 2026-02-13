@@ -1,0 +1,10 @@
+[kernel] Parsing opc.c (with preprocessing)
+[kernel] opc.c:8: 
+  syntax error:
+  Location: between lines 8 and 9, before or at token: }
+  6     
+  7     void opc() {
+  
+  8       rr = 9000; //@ ensures rr == 9000;
+  9     }
+[kernel] Frama-C aborted: invalid user input.

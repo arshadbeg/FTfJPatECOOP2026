@@ -1,0 +1,11 @@
+[kernel] Parsing eq_VC.c (with preprocessing)
+[kernel] eq_VC.c:3: 
+  syntax error:
+  Location: line 3, between columns 13 and 14, before or at token: !=
+  1     
+  2     // Contract and implementation for Vector[Char] /*@
+  3       ensures (n1 != n2) ==> \result==0;
+                     ^
+  4     */
+  5     equality
+[kernel] Frama-C aborted: invalid user input.

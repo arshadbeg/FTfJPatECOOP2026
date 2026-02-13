@@ -1,0 +1,11 @@
+[kernel] Parsing extracted_350.c (with preprocessing)
+[kernel] extracted_350.c:1: 
+  syntax error:
+  Location: between lines 1 and 2, before or at token: *
+  
+  1     int tmp = *a;
+  2       *a = *b;
+  
+  3       *b = tmp;
+  4      }
+[kernel] Frama-C aborted: invalid user input.

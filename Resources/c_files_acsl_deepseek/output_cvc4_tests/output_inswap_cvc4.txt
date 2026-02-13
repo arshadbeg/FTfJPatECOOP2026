@@ -1,0 +1,20 @@
+[kernel] Parsing inswap.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 36 goals scheduled
+[wp] [Unknown] typed_insort_loop_invariant_3_preserved (Qed 27ms) (CVC4)
+[wp] [Unknown] typed_insort_loop_invariant_2_preserved (Qed 21ms) (CVC4)
+[wp] [Unknown] typed_insort_loop_invariant_established (Qed 2ms) (CVC4)
+[wp] [Unknown] typed_insort_ensures_2 (Qed 8ms) (CVC4)
+[wp] [Unknown] typed_insort_ensures (Qed 9ms) (CVC4)
+[wp] [Unknown] typed_insort_loop_invariant_5_preserved (Qed 47ms) (CVC4)
+[wp] [Unknown] typed_insort_loop_assigns_part4 (Qed 30ms) (CVC4)
+[wp] [Unknown] typed_insort_loop_assigns_part2 (Qed 49ms) (CVC4)
+[wp] [Unknown] typed_insort_assigns_normal (Qed 5ms) (CVC4)
+[wp] [Unknown] typed_insort_assigns_exit_part1 (Qed 8ms) (CVC4)
+[wp] Proved goals:   28 / 38
+  Terminating:     1
+  Unreachable:     1
+  Qed:            21 (2ms-9ms-56ms)
+  CVC4 1.8:        5 (17ms-34ms-57ms)
+  Unknown:        10

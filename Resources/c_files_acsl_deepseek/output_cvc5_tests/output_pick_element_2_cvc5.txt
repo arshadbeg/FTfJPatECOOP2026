@@ -1,0 +1,5 @@
+[kernel] Parsing pick_element_2.c (with preprocessing)
+[kernel:annot-error] pick_element_2.c:1: Warning: 
+  unbound logic variable pick_index. Ignoring logic specification of function pick_element
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

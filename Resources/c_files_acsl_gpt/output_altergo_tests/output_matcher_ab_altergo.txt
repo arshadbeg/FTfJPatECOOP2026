@@ -1,0 +1,9 @@
+[kernel] Parsing matcher_ab.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 16 goals scheduled
+[wp] Proved goals:   18 / 18
+  Terminating:       1
+  Unreachable:       1
+  Qed:              15 (6ms)
+  Alt-Ergo 2.6.2:    1 (18ms)

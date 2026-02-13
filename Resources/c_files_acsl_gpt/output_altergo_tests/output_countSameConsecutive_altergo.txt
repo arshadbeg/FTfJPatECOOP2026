@@ -1,0 +1,12 @@
+[kernel] Parsing countSameConsecutive.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 20 goals scheduled
+[wp] [Timeout] typed_countSameConsecutive_loop_invariant_3_preserved (Qed 50ms) (Alt-Ergo)
+[wp] [Timeout] typed_countSameConsecutive_ensures_2 (Qed 7ms) (Alt-Ergo)
+[wp] Proved goals:   20 / 22
+  Terminating:       1
+  Unreachable:       1
+  Qed:              16 (7ms-6ms-50ms)
+  Alt-Ergo 2.6.2:    2 (9ms-29ms)
+  Timeout:           2

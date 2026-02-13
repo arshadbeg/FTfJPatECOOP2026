@@ -1,0 +1,12 @@
+[kernel] Parsing alphabet_letter_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:       1
+  Unreachable:       1
+  Qed:               0 (20ms)
+  Alt-Ergo 2.6.2:    1 (20ms)
+[wp:pedantic-assigns] alphabet_letter_1.c:5: Warning: 
+  No 'assigns' specification for function 'alphabet_letter'.
+  Callers assumptions might be imprecise.

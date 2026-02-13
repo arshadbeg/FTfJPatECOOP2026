@@ -1,0 +1,9 @@
+[kernel] Parsing matcher_2.c (with preprocessing)
+[kernel] matcher_2.c:1: 
+  syntax error:
+  Location: line 1, column 2, before or at token: /
+  1     / ACSL annotation for matcher.c
+          ^
+  2     /*
+  3     @requires x0 != NULL;
+[kernel] Frama-C aborted: invalid user input.

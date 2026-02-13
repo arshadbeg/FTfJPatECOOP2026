@@ -1,0 +1,10 @@
+[kernel] Parsing partition_2.c (with preprocessing)
+[kernel] Warning: end of file reached before line 5
+[kernel] partition_2.c:4: 
+  syntax error:
+  Location: between lines 4 and 5, before or at token: 
+  2     { 
+  3       int x = A[r]; 
+  
+  4       int tmp, j, i = p-1;
+[kernel] Frama-C aborted: invalid user input.

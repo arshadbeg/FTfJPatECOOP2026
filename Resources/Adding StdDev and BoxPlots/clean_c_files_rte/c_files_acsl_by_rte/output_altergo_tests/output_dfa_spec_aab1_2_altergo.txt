@@ -1,0 +1,9 @@
+[kernel] Parsing dfa_spec_aab1_2_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_2.c (with preprocessing)
+  3     [rte:annot] annotating function dfa_spec_aab1
+[kernel] Frama-C aborted: invalid user input.

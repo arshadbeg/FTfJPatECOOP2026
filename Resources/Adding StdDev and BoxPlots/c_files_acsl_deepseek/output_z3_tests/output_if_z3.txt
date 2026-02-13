@@ -1,0 +1,15 @@
+[kernel] Parsing if.c (with preprocessing)
+[kernel] if.c:17: 
+  syntax error:
+  Location: between lines 17 and 20, before or at token: if
+  15                  (lastChange == lastSpace ==> s[nextSpace] == '\n' && lastChange == nextSpace && lastSpace == nextSpace) &&
+  16                  (lastChange != lastSpace ==> s[lastSpace] == '\n' && lastChange == lastSpace);
+  
+  17          ensures !(nextSpace - lastChange > length) ==> lastSpace == nextSpace;
+  18    */
+  19    // Note: This appears to be a code fragment from a line-wrapping or text formatting function
+  20    if(0 <= nextNewLine && nextNewLine < nextSpace) {
+  
+  21        /*@ assert 0 <= nextNewLine && nextNewLine < nextSpace; */
+  22        if(nextNewLine - lastChange > length && lastSpace >= 0) {
+[kernel] Frama-C aborted: invalid user input.

@@ -1,0 +1,8 @@
+[kernel] Parsing matcher_a_or_b_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 12 goals scheduled
+[wp] Proved goals:   14 / 14
+  Terminating:     1
+  Unreachable:     1
+  Qed:            12

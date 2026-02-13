@@ -1,0 +1,5 @@
+/*@ requires \valid(r) && \valid(s);
+    assigns \nothing;
+    ensures \true;
+*/
+void dfa_spec_aab1_1(char* r, char* s) {}

@@ -1,0 +1,9 @@
+[kernel] Parsing array_copy_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 20 goals scheduled
+[wp] Proved goals:   22 / 22
+  Terminating:     1
+  Unreachable:     1
+  Qed:            14 (5ms-3ms-20ms)
+  CVC5 1.1.2:      6 (24ms-66ms-83ms)

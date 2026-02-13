@@ -1,0 +1,14 @@
+[kernel] Parsing main_3.c (with preprocessing)
+[kernel:typing:implicit-function-declaration] main_3.c:6: Warning: 
+  Calling undeclared function gimmeOne. Old style K&R code?
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] main_3.c:6: Warning: 
+  Neither code nor specification for function gimmeOne,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] main_3.c:5: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.

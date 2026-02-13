@@ -1,0 +1,9 @@
+[kernel] Parsing swap_5.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] Proved goals:    5 / 5
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2 (0.93ms)
+  Z3 4.8.12:       1 (10ms)

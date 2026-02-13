@@ -1,0 +1,9 @@
+[kernel] Parsing main.c (with preprocessing)
+[kernel] Warning: end of file reached before line 3
+[kernel] main.c:2: 
+  syntax error:
+  Location: between lines 2 and 3, before or at token: 
+  1     void main() {
+  
+  2         max = maxarray(vec, LENGTH);
+[kernel] Frama-C aborted: invalid user input.

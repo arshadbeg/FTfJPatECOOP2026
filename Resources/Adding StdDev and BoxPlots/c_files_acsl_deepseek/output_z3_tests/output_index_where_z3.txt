@@ -1,0 +1,5 @@
+[kernel] Parsing index_where.c (with preprocessing)
+[kernel:annot-error] index_where.c:3: Warning: 
+  unbound logic variable predicate. Ignoring logic specification of function index_where
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

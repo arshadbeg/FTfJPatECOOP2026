@@ -1,0 +1,5 @@
+[kernel] Parsing dfa.c (with preprocessing)
+[kernel:annot-error] dfa.c:9: Warning: 
+  unbound logic variable x3. Ignoring logic specification of function dfa
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

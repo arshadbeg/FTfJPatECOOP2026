@@ -1,0 +1,3653 @@
+[kernel] Parsing OutAndIn_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] [Unknown] typed_OutAndIn_assert_rte_mem_access_2 (Qed 0.57ms) (CVC5)
+[wp] [Unknown] typed_OutAndIn_assert_rte_mem_access (Qed 0.91ms) (CVC5)
+[wp] Proved goals:    2 / 4
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.57ms-0.91ms)
+  Unknown:         2
+[wp:pedantic-assigns] OutAndIn_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'OutAndIn'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing OutAndIn_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] [Unknown] typed_OutAndIn_assert_rte_mem_access_2 (Qed 0.91ms) (CVC5)
+[wp] [Unknown] typed_OutAndIn_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 4
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.91ms-2ms)
+  Unknown:         2
+[wp:pedantic-assigns] OutAndIn_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'OutAndIn'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing OutAndIn_rte.c (with preprocessing)
+[kernel] OutAndIn_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing OutAndIn.c (with preprocessing)
+  3     [kernel] OutAndIn.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing OutAndIn_test_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] OutAndIn_test_rte.c:2: Warning: 
+  Neither code nor specification for function OutAndIn,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] OutAndIn_test_rte.c:4: Warning: 
+  No 'assigns' specification for function 'OutAndIn_test'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing alphabet_letter_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] alphabet_letter_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'alphabet_letter'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing alphabet_letter_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] alphabet_letter_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'alphabet_letter'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing alphabet_letter_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    4 / 4
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2
+[wp:pedantic-assigns] alphabet_letter_rte.c:2: Warning: 
+  No 'assigns' specification for function 'alphabet_letter'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] alphabet_letter_rte.c:31: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing array_copy_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] array_copy_1_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] array_copy_1_rte.c:17: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 9 goals scheduled
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_4 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_3 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_signed_overflow (Qed 0.72ms) (CVC5)
+[wp] [Unknown] typed_array_copy_terminates_part2 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_array_copy_terminates_part1 (Qed 1ms) (CVC5)
+[wp] Proved goals:    3 / 10
+  Unreachable:     1
+  Qed:             2 (0.72ms-1ms-2ms)
+  Unknown:         7
+[wp:pedantic-assigns] array_copy_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'array_copy'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing array_copy_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] array_copy_2_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] array_copy_2_rte.c:17: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 9 goals scheduled
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_4 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_3 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_signed_overflow (Qed 0.74ms) (CVC5)
+[wp] [Unknown] typed_array_copy_terminates_part2 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_array_copy_terminates_part1 (Qed 1ms) (CVC5)
+[wp] Proved goals:    3 / 10
+  Unreachable:     1
+  Qed:             2 (0.74ms-1ms-2ms)
+  Unknown:         7
+[wp:pedantic-assigns] array_copy_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'array_copy'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing array_copy_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] array_copy_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] array_copy_rte.c:17: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 9 goals scheduled
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_4 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_3 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_array_copy_assert_rte_signed_overflow (Qed 0.71ms) (CVC5)
+[wp] [Unknown] typed_array_copy_terminates_part2 (Qed 0.95ms) (CVC5)
+[wp] [Unknown] typed_array_copy_terminates_part1 (Qed 1ms) (CVC5)
+[wp] Proved goals:    3 / 10
+  Unreachable:     1
+  Qed:             2 (0.71ms-1ms-2ms)
+  Unknown:         7
+[wp:pedantic-assigns] array_copy_rte.c:2: Warning: 
+  No 'assigns' specification for function 'array_copy'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing bubbleinnerloop_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] bubbleinnerloop_1_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Unknown] typed_bubbleinnerloop_assert_rte_mem_access (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_bubbleinnerloop_assert_rte_signed_overflow (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_bubbleinnerloop_terminates (Qed 1ms) (CVC5)
+[wp] [Timeout] typed_bubbleinnerloop_assert_rte_mem_access_4 (Qed 5ms) (CVC5)
+[wp] [Timeout] typed_bubbleinnerloop_assert_rte_mem_access_2 (Qed 3ms) (CVC5)
+[wp] Proved goals:    8 / 13
+  Unreachable:     1
+  Qed:             5 (1ms-2ms-7ms)
+  CVC5 1.1.2:      2 (19ms-30ms)
+  Timeout:         2
+  Unknown:         3
+[wp:pedantic-assigns] bubbleinnerloop_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'bubbleinnerloop'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing bubbleinnerloop_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] bubbleinnerloop_2_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Unknown] typed_bubbleinnerloop_assert_rte_signed_overflow (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_bubbleinnerloop_terminates (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_bubbleinnerloop_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_bubbleinnerloop_assert_rte_mem_access_4 (Qed 4ms) (CVC5)
+[wp] [Timeout] typed_bubbleinnerloop_assert_rte_mem_access_2 (Qed 3ms) (CVC5)
+[wp] Proved goals:    8 / 13
+  Unreachable:     1
+  Qed:             5 (1ms-2ms-6ms)
+  CVC5 1.1.2:      2 (5ms-28ms)
+  Timeout:         2
+  Unknown:         3
+[wp:pedantic-assigns] bubbleinnerloop_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'bubbleinnerloop'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing bubbleinnerloop_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] bubbleinnerloop_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Unknown] typed_bubbleinnerloop_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_bubbleinnerloop_assert_rte_signed_overflow (Qed 0.97ms) (CVC5)
+[wp] [Unknown] typed_bubbleinnerloop_terminates (Qed 0.90ms) (CVC5)
+[wp] [Timeout] typed_bubbleinnerloop_assert_rte_mem_access_4 (Qed 3ms) (CVC5)
+[wp] [Timeout] typed_bubbleinnerloop_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] Proved goals:    8 / 13
+  Unreachable:     1
+  Qed:             5 (0.90ms-1ms-5ms)
+  CVC5 1.1.2:      2 (26ms)
+  Timeout:         2
+  Unknown:         3
+[wp:pedantic-assigns] bubbleinnerloop_rte.c:2: Warning: 
+  No 'assigns' specification for function 'bubbleinnerloop'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing clamp_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] clamp_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'clamp'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing clamp_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] clamp_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'clamp'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing clamp_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] clamp_rte.c:2: Warning: 
+  No 'assigns' specification for function 'clamp'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing countSameConsecutive_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] countSameConsecutive_1_rte.c:9: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] countSameConsecutive_1_rte.c:6: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 10 goals scheduled
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_signed_overflow_4 (Qed 12ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_signed_overflow_3 (Qed 11ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_mem_access_2 (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_mem_access (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_terminates_part2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_terminates_part1 (Qed 1ms) (CVC5)
+[wp] Proved goals:    5 / 11
+  Unreachable:     1
+  Qed:             4 (1ms-3ms-12ms)
+  Unknown:         6
+[wp:pedantic-assigns] countSameConsecutive_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'countSameConsecutive'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing countSameConsecutive_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] countSameConsecutive_2_rte.c:9: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] countSameConsecutive_2_rte.c:6: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 10 goals scheduled
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_signed_overflow_4 (Qed 13ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_signed_overflow_3 (Qed 11ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_mem_access_2 (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_terminates_part2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_terminates_part1 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_mem_access (Qed 3ms) (CVC5)
+[wp] Proved goals:    5 / 11
+  Unreachable:     1
+  Qed:             4 (1ms-3ms-13ms)
+  Unknown:         6
+[wp:pedantic-assigns] countSameConsecutive_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'countSameConsecutive'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing countSameConsecutive_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] countSameConsecutive_rte.c:9: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] countSameConsecutive_rte.c:6: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 10 goals scheduled
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_signed_overflow_4 (Qed 12ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_signed_overflow_3 (Qed 12ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_mem_access_2 (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_terminates_part2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_terminates_part1 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_countSameConsecutive_assert_rte_mem_access (Qed 3ms) (CVC5)
+[wp] Proved goals:    5 / 11
+  Unreachable:     1
+  Qed:             4 (1ms-3ms-12ms)
+  Unknown:         6
+[wp:pedantic-assigns] countSameConsecutive_rte.c:2: Warning: 
+  No 'assigns' specification for function 'countSameConsecutive'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing d_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] d_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'd'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing d_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] d_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'd'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing d_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] d_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'd'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing d_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] d_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'd'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing d_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] d_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'd'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing d_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] d_rte.c:2: Warning: 
+  No 'assigns' specification for function 'd'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing de_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] de_1_rte.c:2: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] de_1_rte.c:4: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] de_1_rte.c:6: Warning: 
+  No 'assigns' specification for function 'de'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing de_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] de_rte.c:2: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] de_rte.c:4: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] de_rte.c:6: Warning: 
+  No 'assigns' specification for function 'de'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing ded_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] ded_1_rte.c:2: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] ded_1_rte.c:4: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] ded_1_rte.c:6: Warning: 
+  No 'assigns' specification for function 'ded'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing ded_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] ded_rte.c:2: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] ded_rte.c:4: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] ded_rte.c:6: Warning: 
+  No 'assigns' specification for function 'ded'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] dfa_1_rte.c:9: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_dfa_assert_rte_mem_access (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_dfa_terminates (Qed 3ms) (CVC5)
+[wp] Proved goals:    2 / 4
+  Unreachable:     1
+  Qed:             1 (3ms-2ms-4ms)
+  Unknown:         2
+[wp:pedantic-assigns] dfa_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] dfa_2_rte.c:9: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_dfa_assert_rte_mem_access (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_dfa_terminates (Qed 3ms) (CVC5)
+[wp] Proved goals:    2 / 4
+  Unreachable:     1
+  Qed:             1 (3ms-2ms-4ms)
+  Unknown:         2
+[wp:pedantic-assigns] dfa_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] dfa_3_rte.c:11: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_dfa_assert_rte_mem_access (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_dfa_terminates (Qed 3ms) (CVC5)
+[wp] Proved goals:    2 / 4
+  Unreachable:     1
+  Qed:             1 (3ms-2ms-4ms)
+  Unknown:         2
+[wp:pedantic-assigns] dfa_3_rte.c:4: Warning: 
+  No 'assigns' specification for function 'dfa'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] dfa_4_rte.c:9: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_dfa_assert_rte_mem_access (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_dfa_terminates (Qed 3ms) (CVC5)
+[wp] Proved goals:    2 / 4
+  Unreachable:     1
+  Qed:             1 (3ms-2ms-4ms)
+  Unknown:         2
+[wp:pedantic-assigns] dfa_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] dfa_5_rte.c:9: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_dfa_assert_rte_mem_access (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_dfa_terminates (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 4
+  Unreachable:     1
+  Qed:             1 (2ms-2ms-4ms)
+  Unknown:         2
+[wp:pedantic-assigns] dfa_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] dfa_rte.c:11: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_dfa_assert_rte_mem_access (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_dfa_terminates (Qed 3ms) (CVC5)
+[wp] Proved goals:    2 / 4
+  Unreachable:     1
+  Qed:             1 (3ms-2ms-4ms)
+  Unknown:         2
+[wp:pedantic-assigns] dfa_rte.c:4: Warning: 
+  No 'assigns' specification for function 'dfa'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_spec_aab0_1_rte.c (with preprocessing)
+[kernel] dfa_spec_aab0_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab0_1.c (with preprocessing)
+  3     [kernel] dfa_spec_aab0_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab0_2_rte.c (with preprocessing)
+[kernel] dfa_spec_aab0_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab0_2.c (with preprocessing)
+  3     [kernel] dfa_spec_aab0_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab0_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] dfa_spec_aab0_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa_spec_aab0'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_spec_aab0_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] dfa_spec_aab0_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa_spec_aab0'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_spec_aab0_rte.c (with preprocessing)
+[kernel] dfa_spec_aab0_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab0.c (with preprocessing)
+  3     [kernel] dfa_spec_aab0.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_1_1_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_1_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_1_1.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_1_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_1_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] dfa_spec_aab1_1_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa_spec_aab1_1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_spec_aab1_1_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] dfa_spec_aab1_1_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa_spec_aab1_1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_spec_aab1_1_4_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_1_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_1_4.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_1_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_1_5_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_1_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_1_5.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_1_5.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_1_6_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_1_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_1_6.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_1_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_1_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_1.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] dfa_spec_aab1_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa_spec_aab1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_spec_aab1_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] dfa_spec_aab1_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'dfa_spec_aab1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing dfa_spec_aab1_4_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_4.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_5_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_5.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_5.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_6_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_6.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_7_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_7_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_7.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_7.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_8_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_8_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_8.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_8.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_9_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_9_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1_9.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1_9.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing dfa_spec_aab1_rte.c (with preprocessing)
+[kernel] dfa_spec_aab1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing dfa_spec_aab1.c (with preprocessing)
+  3     [kernel] dfa_spec_aab1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing distance_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_distance_assert_rte_signed_overflow_4 (Qed 0.86ms) (CVC5)
+[wp] [Unknown] typed_distance_assert_rte_signed_overflow_2 (Qed 0.97ms) (CVC5)
+[wp] Proved goals:    4 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.52ms-0.83ms-0.99ms)
+  CVC5 1.1.2:      2 (5ms-9ms)
+  Unknown:         2
+[wp:pedantic-assigns] distance_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'distance'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing distance_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_distance_assert_rte_signed_overflow_4 (Qed 0.84ms) (CVC5)
+[wp] [Unknown] typed_distance_assert_rte_signed_overflow_2 (Qed 1ms) (CVC5)
+[wp] Proved goals:    4 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.84ms-0.71ms-1ms)
+  CVC5 1.1.2:      2 (12ms-19ms)
+  Unknown:         2
+[wp:pedantic-assigns] distance_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'distance'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing distance_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_distance_assert_rte_signed_overflow_4 (Qed 0.94ms) (CVC5)
+[wp] [Unknown] typed_distance_assert_rte_signed_overflow_2 (Qed 0.99ms) (CVC5)
+[wp] Proved goals:    4 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.94ms-0.88ms-2ms)
+  CVC5 1.1.2:      2 (8ms-14ms)
+  Unknown:         2
+[wp:pedantic-assigns] distance_rte.c:2: Warning: 
+  No 'assigns' specification for function 'distance'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing e_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] e_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'e'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing e_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] e_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'e'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing e_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] e_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'e'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing e_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1
+[wp:pedantic-assigns] e_rte.c:2: Warning: 
+  No 'assigns' specification for function 'e'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing ed_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] ed_1_rte.c:2: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] ed_1_rte.c:4: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] ed_1_rte.c:6: Warning: 
+  No 'assigns' specification for function 'ed'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing ed_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] ed_rte.c:2: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] ed_rte.c:4: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] ed_rte.c:6: Warning: 
+  No 'assigns' specification for function 'ed'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing ede_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] ede_1_rte.c:2: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] ede_1_rte.c:4: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] ede_1_rte.c:6: Warning: 
+  No 'assigns' specification for function 'ede'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing ede_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] ede_rte.c:2: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] ede_rte.c:4: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] ede_rte.c:6: Warning: 
+  No 'assigns' specification for function 'ede'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing eq_VC_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_VC_1_rte.c:11: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_eq_VC_terminates (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_eq_VC_assert_rte_mem_access_2 (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_eq_VC_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (1ms-2ms-3ms)
+  Unknown:         3
+[wp:pedantic-assigns] eq_VC_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'eq_VC'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing eq_VC_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_VC_2_rte.c:11: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_eq_VC_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_eq_VC_terminates (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_eq_VC_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (1ms-1ms-2ms)
+  Unknown:         3
+[wp:pedantic-assigns] eq_VC_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'eq_VC'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing eq_VC_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_VC_rte.c:11: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] eq_VC_rte.c:35: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Unknown] typed_eq_VVC_assert_rte_mem_access_4 (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_eq_VVC_assert_rte_mem_access_3 (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_eq_VVC_assert_rte_mem_access_2 (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_eq_VVC_assert_rte_mem_access (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_eq_VVC_terminates_part2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_eq_VC_terminates (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_eq_VC_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_eq_VC_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    5 / 13
+  Unreachable:     1
+  Qed:             4 (2ms-2ms-4ms)
+  Unknown:         8
+[wp:pedantic-assigns] eq_VC_rte.c:2: Warning: 
+  No 'assigns' specification for function 'eq_VC'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] eq_VC_rte.c:26: Warning: 
+  No 'assigns' specification for function 'eq_VVC'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing eq_vec_Int_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_vec_Int_1_rte.c:10: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_eq_vec_Int_terminates (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_Int_assert_rte_mem_access_2 (Qed 9ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_Int_assert_rte_mem_access (Qed 7ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (4ms-5ms-9ms)
+  Unknown:         3
+[wp:pedantic-assigns] eq_vec_Int_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'eq_vec_Int'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing eq_vec_Int_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_vec_Int_2_rte.c:10: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_eq_vec_Int_terminates (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_Int_assert_rte_mem_access_2 (Qed 8ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_Int_assert_rte_mem_access (Qed 9ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (4ms-5ms-9ms)
+  Unknown:         3
+[wp:pedantic-assigns] eq_vec_Int_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'eq_vec_Int'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing eq_vec_Int_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_vec_Int_rte.c:10: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] eq_vec_Int_rte.c:40: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Unknown] typed_eq_vec_vec_Int_assert_rte_mem_access_4 (Qed 17ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_vec_Int_assert_rte_mem_access_3 (Qed 13ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_vec_Int_assert_rte_mem_access_2 (Qed 11ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_vec_Int_assert_rte_mem_access (Qed 9ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_vec_Int_terminates_part2 (Qed 5ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_Int_terminates (Qed 5ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_Int_assert_rte_mem_access_2 (Qed 8ms) (CVC5)
+[wp] [Unknown] typed_eq_vec_Int_assert_rte_mem_access (Qed 7ms) (CVC5)
+[wp] Proved goals:    5 / 13
+  Unreachable:     1
+  Qed:             4 (5ms-6ms-17ms)
+  Unknown:         8
+[wp:pedantic-assigns] eq_vec_Int_rte.c:2: Warning: 
+  No 'assigns' specification for function 'eq_vec_Int'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] eq_vec_Int_rte.c:32: Warning: 
+  No 'assigns' specification for function 'eq_vec_vec_Int'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing extracted_1043_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_1080_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_1113_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_1164_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_1211_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_129_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_136_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_190_rte.c (with preprocessing)
+[kernel] extracted_190_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_190.c (with preprocessing)
+  3     [kernel] extracted_190.c:1: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_195_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_204_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_213_rte.c (with preprocessing)
+[kernel] extracted_213_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_213.c (with preprocessing)
+  3     [kernel] extracted_213.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_220_rte.c (with preprocessing)
+[kernel] extracted_220_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_220.c (with preprocessing)
+  3     [kernel] extracted_220.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_228_rte.c (with preprocessing)
+[kernel] extracted_228_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_228.c (with preprocessing)
+  3     [kernel] extracted_228.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_233_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_234_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_236_rte.c (with preprocessing)
+[kernel] extracted_236_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_236.c (with preprocessing)
+  3     [kernel:typing:implicit-function-declaration] extracted_236.c:2: Warning:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_238_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_239_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_241_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_244_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_250_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_264_rte.c (with preprocessing)
+[kernel] extracted_264_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_264.c (with preprocessing)
+  3     [kernel] extracted_264.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_267_rte.c (with preprocessing)
+[kernel] extracted_267_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_267.c (with preprocessing)
+  3     [kernel] extracted_267.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_272_rte.c (with preprocessing)
+[kernel] extracted_272_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_272.c (with preprocessing)
+  3     [kernel] extracted_272.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_276_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_282_rte.c (with preprocessing)
+[kernel] extracted_282_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_282.c (with preprocessing)
+  3     [kernel] extracted_282.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_283_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_290_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_313_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_320_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_346_rte.c (with preprocessing)
+[kernel] extracted_346_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_346.c (with preprocessing)
+  3     [kernel] extracted_346.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_350_rte.c (with preprocessing)
+[kernel] extracted_350_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_350.c (with preprocessing)
+  3     [kernel] extracted_350.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_355_rte.c (with preprocessing)
+[kernel] extracted_355_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_355.c (with preprocessing)
+  3     [kernel] extracted_355.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_383_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_390_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_454_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_506_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_520_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_531_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_538_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_552_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_567_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_578_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_592_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_611_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_659_rte.c (with preprocessing)
+[kernel] extracted_659_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing extracted_659.c (with preprocessing)
+  3     [kernel] extracted_659.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing extracted_668_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_669_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_670_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_672_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_673_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_674_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_681_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_682_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_683_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_729_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_735_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_739_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_746_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_749_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_800_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_812_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_820_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_871_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_888_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_901_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_952_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_974_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing extracted_992_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing func1_1_rte.c (with preprocessing)
+[kernel] func1_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing func1_1.c (with preprocessing)
+  3     [kernel] func1_1.c:1: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing func1_2_rte.c (with preprocessing)
+[kernel] func1_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing func1_2.c (with preprocessing)
+  3     [kernel] func1_2.c:1: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing func1_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 16 goals scheduled
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_8 (Qed 3ms) (CVC5)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_6 (Qed 3ms) (CVC5)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_4 (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_2 (Qed 2ms) (CVC5)
+[wp] Proved goals:   16 / 20
+  Terminating:     2
+  Unreachable:     2
+  Qed:             8 (1ms-1ms-3ms)
+  CVC5 1.1.2:      4 (27ms-61ms)
+  Timeout:         4
+[wp:pedantic-assigns] func1_3_rte.c:14: Warning: 
+  No 'assigns' specification for function 'func1'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] func1_3_rte.c:48: Warning: 
+  No 'assigns' specification for function 'func2'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing func1_4_rte.c (with preprocessing)
+[kernel] func1_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing func1_4.c (with preprocessing)
+  3     [kernel] func1_4.c:2: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing func1_5_rte.c (with preprocessing)
+[kernel] func1_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing func1_5.c (with preprocessing)
+  3     [kernel] func1_5.c:2: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing func1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 16 goals scheduled
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_8 (Qed 3ms) (CVC5)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_6 (Qed 3ms) (CVC5)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_4 (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_2 (Qed 2ms) (CVC5)
+[wp] Proved goals:   16 / 20
+  Terminating:     2
+  Unreachable:     2
+  Qed:             8 (0.94ms-1ms-4ms)
+  CVC5 1.1.2:      4 (23ms-35ms-42ms)
+  Timeout:         4
+[wp:pedantic-assigns] func1_rte.c:14: Warning: 
+  No 'assigns' specification for function 'func1'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] func1_rte.c:48: Warning: 
+  No 'assigns' specification for function 'func2'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing func2_1_rte.c (with preprocessing)
+[kernel] func2_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing func2_1.c (with preprocessing)
+  3     [kernel] func2_1.c:1: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing func2_rte.c (with preprocessing)
+[kernel] func2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing func2.c (with preprocessing)
+  3     [kernel] func2.c:1: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing gimmeOne_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] gimmeOne_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'gimmeOne'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing gimmeOne_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] gimmeOne_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'gimmeOne'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing gimmeOne_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] gimmeOne_rte.c:2: Warning: 
+  No 'assigns' specification for function 'gimmeOne'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing if_1_rte.c (with preprocessing)
+[kernel] if_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing if_1.c (with preprocessing)
+  3     [kernel] if_1.c:2:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing if_2_rte.c (with preprocessing)
+[kernel] if_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing if_2.c (with preprocessing)
+  3     [kernel] if_2.c:2:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing if_3_rte.c (with preprocessing)
+[kernel] if_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing if_3.c (with preprocessing)
+  3     [kernel] if_3.c:2:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing if_rte.c (with preprocessing)
+[kernel] if_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing if.c (with preprocessing)
+  3     [kernel] if.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing indexOf_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing indexOf_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing indexOf_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated
+[kernel] Parsing index_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_3 (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_4 (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_2 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (1ms-2ms-3ms)
+  Unknown:         4
+[wp:pedantic-assigns] index_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'index'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing index_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_4 (Qed 4ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_3 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_2 (Qed 0.70ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow (Qed 1ms) (CVC5)
+[wp] Proved goals:    2 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.70ms-2ms-4ms)
+  Unknown:         4
+[wp:pedantic-assigns] index_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'index'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing index_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] index_rte.c:20: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] index_rte.c:17: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] index_rte.c:54: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] index_rte.c:51: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 21 goals scheduled
+[wp] [Unknown] typed_add_assert_rte_signed_overflow_2 (Qed 8ms) (CVC5)
+[wp] [Unknown] typed_add_assert_rte_mem_access_3 (Qed 23ms) (CVC5)
+[wp] [Unknown] typed_add_assert_rte_mem_access_2 (Qed 13ms) (CVC5)
+[wp] [Unknown] typed_add_assert_rte_mem_access (Qed 11ms) (CVC5)
+[wp] [Unknown] typed_add_terminates_part3 (Qed 7ms) (CVC5)
+[wp] [Unknown] typed_add_terminates_part2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_4 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_3 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow_2 (Qed 0.93ms) (CVC5)
+[wp] [Unknown] typed_index_assert_rte_signed_overflow (Qed 0.53ms) (CVC5)
+[wp] [Unknown] typed_scalar_mult_assert_rte_mem_access (Qed 18ms) (CVC5)
+[wp] [Unknown] typed_scalar_mult_terminates_part3 (Qed 8ms) (CVC5)
+[wp] [Unknown] typed_scalar_mult_terminates_part2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_scalar_mult_assert_rte_signed_overflow_2 (Qed 7ms) (CVC5)
+[wp] [Unknown] typed_scalar_mult_assert_rte_mem_access_2 (Qed 31ms) (CVC5)
+[wp] Proved goals:    8 / 23
+  Terminating:     1
+  Unreachable:     1
+  Qed:             6 (0.53ms-6ms-31ms)
+  Unknown:        15
+[wp:pedantic-assigns] index_rte.c:2: Warning: 
+  No 'assigns' specification for function 'index'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] index_rte.c:13: Warning: 
+  No 'assigns' specification for function 'add'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] index_rte.c:47: Warning: 
+  No 'assigns' specification for function 'scalar_mult'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing index_where_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] index_where_rte.c:2: Warning: 
+  Neither code nor specification for function predicate,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] index_where_rte.c:9: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 7 goals scheduled
+[wp] [Unknown] typed_index_where_terminates_part2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_index_where_assert_rte_mem_access_2 (Qed 6ms) (CVC5)
+[wp] [Unknown] typed_index_where_assert_rte_signed_overflow (Qed 5ms) (CVC5)
+[wp] [Unknown] typed_index_where_assert_rte_mem_access (Qed 3ms) (CVC5)
+[wp] Proved goals:    3 / 7
+  Qed:             3 (2ms-2ms-6ms)
+  Unknown:         4
+[wp:pedantic-assigns] index_where_rte.c:4: Warning: 
+  No 'assigns' specification for function 'index_where'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing inswap_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_inswap_assert_rte_mem_access_3 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_inswap_assert_rte_mem_access_2 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_inswap_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    3 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (1ms-2ms-3ms)
+  CVC5 1.1.2:      1 (26ms)
+  Unknown:         3
+[wp:pedantic-assigns] inswap_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'inswap'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing inswap_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_inswap_assert_rte_mem_access_3 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_inswap_assert_rte_mem_access_2 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_inswap_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    3 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (1ms-2ms-2ms)
+  CVC5 1.1.2:      1 (23ms)
+  Unknown:         3
+[wp:pedantic-assigns] inswap_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'inswap'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing inswap_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] inswap_rte.c:26: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] inswap_rte.c:18: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Unknown] typed_insort_assert_rte_signed_overflow_2 (Qed 12ms) (CVC5)
+[wp] [Unknown] typed_insort_assert_rte_mem_access_2 (Qed 15ms) (CVC5)
+[wp] [Unknown] typed_insort_assert_rte_mem_access (Qed 12ms) (CVC5)
+[wp] [Unknown] typed_insort_terminates_part3 (Qed 9ms) (CVC5)
+[wp] [Unknown] typed_insort_terminates_part2 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_inswap_assert_rte_mem_access_3 (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_inswap_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_inswap_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    6 / 14
+  Terminating:     1
+  Unreachable:     1
+  Qed:             3 (1ms-5ms-15ms)
+  CVC5 1.1.2:      1 (8ms)
+  Unknown:         8
+[wp:pedantic-assigns] inswap_rte.c:2: Warning: 
+  No 'assigns' specification for function 'inswap'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] inswap_rte.c:15: Warning: 
+  No 'assigns' specification for function 'insort'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_nat_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] is_nat_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_nat'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_nat_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] is_nat_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_nat'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] is_pos_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] is_pos_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_minus1_assert_rte_signed_overflow (CVC5)
+[wp] Proved goals:    6 / 7
+  Terminating:     3
+  Unreachable:     3
+  Qed:             0
+  Unknown:         1
+[wp:pedantic-assigns] is_pos_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] is_pos_3_rte.c:8: Warning: 
+  No 'assigns' specification for function 'is_nat'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] is_pos_3_rte.c:14: Warning: 
+  No 'assigns' specification for function 'minus1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] is_pos_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] is_pos_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_6_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_minus1_assert_rte_signed_overflow (CVC5)
+[wp] Proved goals:    6 / 7
+  Terminating:     3
+  Unreachable:     3
+  Qed:             0
+  Unknown:         1
+[wp:pedantic-assigns] is_pos_6_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] is_pos_6_rte.c:8: Warning: 
+  No 'assigns' specification for function 'is_nat'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] is_pos_6_rte.c:14: Warning: 
+  No 'assigns' specification for function 'minus1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_7_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    4 / 4
+  Terminating:     2
+  Unreachable:     2
+[wp:pedantic-assigns] is_pos_7_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] is_pos_7_rte.c:8: Warning: 
+  No 'assigns' specification for function 'is_nat'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_8_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    4 / 4
+  Terminating:     2
+  Unreachable:     2
+[wp:pedantic-assigns] is_pos_8_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] is_pos_8_rte.c:8: Warning: 
+  No 'assigns' specification for function 'is_nat'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_pos_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_minus1_assert_rte_signed_overflow (CVC5)
+[wp] Proved goals:    6 / 7
+  Terminating:     3
+  Unreachable:     3
+  Qed:             0
+  Unknown:         1
+[wp:pedantic-assigns] is_pos_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_pos'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] is_pos_rte.c:8: Warning: 
+  No 'assigns' specification for function 'is_nat'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] is_pos_rte.c:14: Warning: 
+  No 'assigns' specification for function 'minus1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_sorted_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] is_sorted_1_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 5 goals scheduled
+[wp] [Unknown] typed_is_sorted_assert_rte_signed_overflow (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_is_sorted_terminates (Qed 1ms) (CVC5)
+[wp] [Timeout] typed_is_sorted_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_is_sorted_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 6
+  Unreachable:     1
+  Qed:             1 (1ms-1ms-2ms)
+  Timeout:         2
+  Unknown:         2
+[wp:pedantic-assigns] is_sorted_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_sorted'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_sorted_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] is_sorted_2_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 5 goals scheduled
+[wp] [Unknown] typed_is_sorted_assert_rte_signed_overflow (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_is_sorted_terminates (Qed 1ms) (CVC5)
+[wp] [Timeout] typed_is_sorted_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_is_sorted_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 6
+  Unreachable:     1
+  Qed:             1 (1ms-2ms-2ms)
+  Timeout:         2
+  Unknown:         2
+[wp:pedantic-assigns] is_sorted_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_sorted'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing is_sorted_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] is_sorted_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 5 goals scheduled
+[wp] [Unknown] typed_is_sorted_assert_rte_signed_overflow (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_is_sorted_terminates (Qed 0.86ms) (CVC5)
+[wp] [Timeout] typed_is_sorted_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_is_sorted_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 6
+  Unreachable:     1
+  Qed:             1 (0.86ms-1ms-2ms)
+  Timeout:         2
+  Unknown:         2
+[wp:pedantic-assigns] is_sorted_rte.c:2: Warning: 
+  No 'assigns' specification for function 'is_sorted'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma01_1_rte.c (with preprocessing)
+[kernel] lemma01_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma01_1.c (with preprocessing)
+  3     [kernel] lemma01_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma01_2_rte.c (with preprocessing)
+[kernel] lemma01_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma01_2.c (with preprocessing)
+  3     [kernel] lemma01_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma01_3_rte.c (with preprocessing)
+[kernel] lemma01_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma01_3.c (with preprocessing)
+  3     [kernel] lemma01_3.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma01_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] lemma01_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma01'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma01_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] lemma01_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma01'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma01_6_rte.c (with preprocessing)
+[kernel] lemma01_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma01_6.c (with preprocessing)
+  3     [kernel] lemma01_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma01_7_rte.c (with preprocessing)
+[kernel] lemma01_7_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma01_7.c (with preprocessing)
+  3     [kernel] lemma01_7.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma01_8_rte.c (with preprocessing)
+[kernel] lemma01_8_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma01_8.c (with preprocessing)
+  3     [kernel] lemma01_8.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma01_rte.c (with preprocessing)
+[kernel] lemma01_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma01.c (with preprocessing)
+  3     [kernel] lemma01.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma11_1_rte.c (with preprocessing)
+[kernel] lemma11_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma11_1.c (with preprocessing)
+  3     [kernel] lemma11_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma11_2_rte.c (with preprocessing)
+[kernel] lemma11_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma11_2.c (with preprocessing)
+  3     [kernel] lemma11_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma11_3_rte.c (with preprocessing)
+[kernel] lemma11_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma11_3.c (with preprocessing)
+  3     [kernel] lemma11_3.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma11_4_rte.c (with preprocessing)
+[kernel] lemma11_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma11_4.c (with preprocessing)
+  3     [kernel] lemma11_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma11_5_rte.c (with preprocessing)
+[kernel] lemma11_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma11_5.c (with preprocessing)
+  3     [kernel] lemma11_5.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma11_6_rte.c (with preprocessing)
+[kernel] lemma11_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma11_6.c (with preprocessing)
+  3     [kernel] lemma11_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma11_rte.c (with preprocessing)
+[kernel] lemma11_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma11.c (with preprocessing)
+  3     [kernel] lemma11.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma12_1_rte.c (with preprocessing)
+[kernel] lemma12_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma12_1.c (with preprocessing)
+  3     [kernel] lemma12_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma12_2_rte.c (with preprocessing)
+[kernel] lemma12_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma12_2.c (with preprocessing)
+  3     [kernel] lemma12_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma12_3_rte.c (with preprocessing)
+[kernel] lemma12_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma12_3.c (with preprocessing)
+  3     [kernel] lemma12_3.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma12_4_rte.c (with preprocessing)
+[kernel] lemma12_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma12_4.c (with preprocessing)
+  3     [kernel] lemma12_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma12_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] lemma12_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma12'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma12_6_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] lemma12_6_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma12'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma12_rte.c (with preprocessing)
+[kernel] lemma12_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma12.c (with preprocessing)
+  3     [kernel] lemma12.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma2f_1_rte.c (with preprocessing)
+[kernel] lemma2f_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma2f_1.c (with preprocessing)
+  3     [kernel] lemma2f_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma2f_2_rte.c (with preprocessing)
+[kernel] lemma2f_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma2f_2.c (with preprocessing)
+  3     [kernel] lemma2f_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma2f_3_rte.c (with preprocessing)
+[kernel] lemma2f_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma2f_3.c (with preprocessing)
+  3     [kernel] lemma2f_3.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma2f_4_rte.c (with preprocessing)
+[kernel] lemma2f_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma2f_4.c (with preprocessing)
+  3     [kernel] lemma2f_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma2f_rte.c (with preprocessing)
+[kernel] lemma2f_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma2f.c (with preprocessing)
+  3     [kernel] lemma2f.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_10_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_10_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_10.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_10.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_11_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_11_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_11.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_11.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_12_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_12_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_12.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_12.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_1_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_1.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] lemma_all_star_A_2_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Unknown] typed_lemma_all_star_A_terminates (CVC5)
+[wp] Proved goals:    2 / 3
+  Unreachable:     1
+  Qed:             1
+  Unknown:         1
+[wp:pedantic-assigns] lemma_all_star_A_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma_all_star_A'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma_all_star_A_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] lemma_all_star_A_3_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Unknown] typed_lemma_all_star_A_terminates (CVC5)
+[wp] Proved goals:    2 / 3
+  Unreachable:     1
+  Qed:             1
+  Unknown:         1
+[wp:pedantic-assigns] lemma_all_star_A_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma_all_star_A'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma_all_star_A_4_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_4.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_5_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_5.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_5.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_6_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_6.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_7_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_7_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_7.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_7.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_8_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_8_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_8.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_8.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_9_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_9_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A_9.c (with preprocessing)
+  3     [kernel] lemma_all_star_A_9.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_all_star_A_rte.c (with preprocessing)
+[kernel] lemma_all_star_A_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_all_star_A.c (with preprocessing)
+  3     [kernel] lemma_all_star_A.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_1_rte.c (with preprocessing)
+[kernel] lemma_star_A_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_1.c (with preprocessing)
+  3     [kernel] lemma_star_A_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_2_rte.c (with preprocessing)
+[kernel] lemma_star_A_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_2.c (with preprocessing)
+  3     [kernel] lemma_star_A_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_3_rte.c (with preprocessing)
+[kernel] lemma_star_A_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_3.c (with preprocessing)
+  3     [kernel] lemma_star_A_3.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_4_rte.c (with preprocessing)
+[kernel] lemma_star_A_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_4.c (with preprocessing)
+  3     [kernel] lemma_star_A_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_5_rte.c (with preprocessing)
+[kernel] lemma_star_A_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_5.c (with preprocessing)
+  3     [kernel] lemma_star_A_5.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_6_rte.c (with preprocessing)
+[kernel] lemma_star_A_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_6.c (with preprocessing)
+  3     [kernel] lemma_star_A_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_7_rte.c (with preprocessing)
+[kernel] lemma_star_A_7_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_7.c (with preprocessing)
+  3     [kernel] lemma_star_A_7.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_8_rte.c (with preprocessing)
+[kernel] lemma_star_A_8_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_8.c (with preprocessing)
+  3     [kernel] lemma_star_A_8.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_10_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_10_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_10.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_10.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_11_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_11_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_11.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_11.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_12_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_12_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_12.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_12.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_13_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_13_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_13.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_13.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_14_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_14_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_14.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_14.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] lemma_star_A_all_1_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Unknown] typed_lemma_star_A_all_terminates (CVC5)
+[wp] Proved goals:    2 / 3
+  Unreachable:     1
+  Qed:             1
+  Unknown:         1
+[wp:pedantic-assigns] lemma_star_A_all_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma_star_A_all'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma_star_A_all_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] lemma_star_A_all_2_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Unknown] typed_lemma_star_A_all_terminates (CVC5)
+[wp] Proved goals:    2 / 3
+  Unreachable:     1
+  Qed:             1
+  Unknown:         1
+[wp:pedantic-assigns] lemma_star_A_all_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma_star_A_all'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma_star_A_all_3_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_3.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_3.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_4_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_4.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_5_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_5.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_5.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_6_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_6.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_7_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_7_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_7.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_7.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_8_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_8_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_8.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_8.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_9_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_9_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all_9.c (with preprocessing)
+  3     [kernel] lemma_star_A_all_9.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_all_rte.c (with preprocessing)
+[kernel] lemma_star_A_all_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_all.c (with preprocessing)
+  3     [kernel] lemma_star_A_all.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_rte.c (with preprocessing)
+[kernel] lemma_star_A_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A.c (with preprocessing)
+  3     [kernel] lemma_star_A.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_1_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec_1.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_2_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec_2.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_3_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec_3.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec_3.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_4_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec_4.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_5_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec_5.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec_5.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_6_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec_6.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_7_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_7_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec_7.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec_7.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_8_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_8_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec_8.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec_8.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_dec_rte.c (with preprocessing)
+[kernel] lemma_star_A_dec_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_dec.c (with preprocessing)
+  3     [kernel] lemma_star_A_dec.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_10_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_10_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not_10.c (with preprocessing)
+  3     [kernel] lemma_star_A_not_10.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_1_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not_1.c (with preprocessing)
+  3     [kernel] lemma_star_A_not_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_2_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not_2.c (with preprocessing)
+  3     [kernel] lemma_star_A_not_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] lemma_star_A_not_3_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Unknown] typed_lemma_star_A_not_terminates (CVC5)
+[wp] Proved goals:    2 / 3
+  Unreachable:     1
+  Qed:             1
+  Unknown:         1
+[wp:pedantic-assigns] lemma_star_A_not_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma_star_A_not'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma_star_A_not_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] lemma_star_A_not_4_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Unknown] typed_lemma_star_A_not_terminates (CVC5)
+[wp] Proved goals:    2 / 3
+  Unreachable:     1
+  Qed:             1
+  Unknown:         1
+[wp:pedantic-assigns] lemma_star_A_not_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma_star_A_not'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing lemma_star_A_not_5_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_5_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not_5.c (with preprocessing)
+  3     [kernel] lemma_star_A_not_5.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_6_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_6_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not_6.c (with preprocessing)
+  3     [kernel] lemma_star_A_not_6.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_7_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_7_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not_7.c (with preprocessing)
+  3     [kernel] lemma_star_A_not_7.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_8_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_8_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not_8.c (with preprocessing)
+  3     [kernel] lemma_star_A_not_8.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_9_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_9_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not_9.c (with preprocessing)
+  3     [kernel] lemma_star_A_not_9.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing lemma_star_A_not_rte.c (with preprocessing)
+[kernel] lemma_star_A_not_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing lemma_star_A_not.c (with preprocessing)
+  3     [kernel] lemma_star_A_not.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing m_aapb_1_rte.c (with preprocessing)
+[kernel] m_aapb_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing m_aapb_1.c (with preprocessing)
+  3     [kernel] m_aapb_1.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing m_aapb_2_rte.c (with preprocessing)
+[kernel] m_aapb_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing m_aapb_2.c (with preprocessing)
+  3     [kernel] m_aapb_2.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing m_aapb_3_rte.c (with preprocessing)
+[kernel] m_aapb_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing m_aapb_3.c (with preprocessing)
+  3     [kernel] m_aapb_3.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing m_aapb_4_rte.c (with preprocessing)
+[kernel] m_aapb_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing m_aapb_4.c (with preprocessing)
+  3     [kernel] m_aapb_4.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing m_aapb_rte.c (with preprocessing)
+[kernel] m_aapb_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing m_aapb.c (with preprocessing)
+  3     [kernel] m_aapb.c:1:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing main_1_rte.c (with preprocessing)
+[kernel] main_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing main_1.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 2
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing main_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] main_2_rte.c:2: Warning: 
+  Neither code nor specification for function swap,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] main_2_rte.c:4: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing main_3_rte.c (with preprocessing)
+[kernel] main_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing main_3.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 3
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing main_4_rte.c (with preprocessing)
+[kernel] main_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing main_4.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 4
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing main_rte.c (with preprocessing)
+[kernel] main_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing main.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 3
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing matcher_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] matcher_1_rte.c:2: Warning: 
+  Neither code nor specification for function strlen,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_matcher_assert_rte_mem_access (Qed 3ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.89ms)
+  Unknown:         1
+[wp:pedantic-assigns] matcher_1_rte.c:4: Warning: 
+  No 'assigns' specification for function 'matcher'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing matcher_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] matcher_2_rte.c:2: Warning: 
+  Neither code nor specification for function strlen,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_matcher_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.76ms)
+  Unknown:         1
+[wp:pedantic-assigns] matcher_2_rte.c:4: Warning: 
+  No 'assigns' specification for function 'matcher'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing matcher_a_or_b_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access_3 (Qed 8ms) (CVC5)
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access_2 (Qed 5ms) (CVC5)
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (1ms-8ms)
+  Unknown:         3
+[wp:pedantic-assigns] matcher_a_or_b_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'matcher_a_or_b'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing matcher_a_or_b_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access_3 (Qed 8ms) (CVC5)
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access_2 (Qed 6ms) (CVC5)
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (2ms-8ms)
+  Unknown:         3
+[wp:pedantic-assigns] matcher_a_or_b_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'matcher_a_or_b'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing matcher_a_or_b_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access_3 (Qed 9ms) (CVC5)
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access_2 (Qed 5ms) (CVC5)
+[wp] [Unknown] typed_matcher_a_or_b_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (1ms-9ms)
+  Unknown:         3
+[wp:pedantic-assigns] matcher_a_or_b_rte.c:4: Warning: 
+  No 'assigns' specification for function 'matcher_a_or_b'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing matcher_ab_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access_3 (Qed 13ms) (CVC5)
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access_2 (Qed 9ms) (CVC5)
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (2ms-8ms-13ms)
+  Unknown:         3
+[wp:pedantic-assigns] matcher_ab_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'matcher_ab'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing matcher_ab_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access_3 (Qed 13ms) (CVC5)
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access_2 (Qed 10ms) (CVC5)
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (2ms-8ms-13ms)
+  Unknown:         3
+[wp:pedantic-assigns] matcher_ab_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'matcher_ab'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing matcher_ab_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access_3 (Qed 12ms) (CVC5)
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access_2 (Qed 10ms) (CVC5)
+[wp] [Unknown] typed_matcher_ab_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (1ms-8ms-12ms)
+  Unknown:         3
+[wp:pedantic-assigns] matcher_ab_rte.c:4: Warning: 
+  No 'assigns' specification for function 'matcher_ab'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing matcher_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] FRAMAC_SHARE/libc/string.h:172: Warning: 
+  Neither code nor explicit exits and terminates for function strlen,
+   generating default clauses. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Timeout] typed_matcher_call_strlen_requires_valid_string_s (Qed 0.91ms) (CVC5)
+[wp] Proved goals:    3 / 4
+  Qed:             2 (0.91ms-0.89ms-3ms)
+  CVC5 1.1.2:      1 (51ms)
+  Timeout:         1
+[wp:pedantic-assigns] matcher_rte.c:4: Warning: 
+  No 'assigns' specification for function 'matcher'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max2_1_rte.c (with preprocessing)
+[kernel] max2_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing max2_1.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 4
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing max2_2_rte.c (with preprocessing)
+[kernel] max2_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing max2_2.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 4
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing max2_rte.c (with preprocessing)
+[kernel] max2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing max2.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 5
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing max_idx_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] max_idx_1_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_max_idx_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_idx_terminates (Qed 0.72ms) (CVC5)
+[wp] [Unknown] typed_max_idx_assert_rte_mem_access (Qed 3ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (0.72ms-1ms-3ms)
+  Unknown:         3
+[wp:pedantic-assigns] max_idx_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_idx'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_idx_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] max_idx_2_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_max_idx_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_idx_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_idx_terminates (Qed 0.58ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (0.58ms-1ms-2ms)
+  Unknown:         3
+[wp:pedantic-assigns] max_idx_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_idx'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_idx_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] max_idx_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_max_idx_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_idx_terminates (Qed 0.60ms) (CVC5)
+[wp] [Unknown] typed_max_idx_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (0.60ms-1ms-2ms)
+  Unknown:         3
+[wp:pedantic-assigns] max_idx_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_idx'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_ptr_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 6 goals scheduled
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_6 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_4 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_2 (Qed 0.81ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    4 / 8
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2 (0.81ms-0.94ms-2ms)
+  Unknown:         4
+[wp:pedantic-assigns] max_ptr_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_ptr'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_ptr_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 6 goals scheduled
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_6 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_4 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_2 (Qed 1ms) (CVC5)
+[wp] Proved goals:    4 / 8
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2 (1ms-0.99ms-2ms)
+  Unknown:         4
+[wp:pedantic-assigns] max_ptr_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_ptr'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_ptr_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 6 goals scheduled
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_2 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access (Qed 0.83ms) (CVC5)
+[wp] Proved goals:    6 / 8
+  Terminating:     1
+  Unreachable:     1
+  Qed:             4 (0.83ms-0.33ms-1ms)
+  Unknown:         2
+[wp:pedantic-assigns] max_ptr_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_ptr'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] max_ptr_3_rte.c:18: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_ptr_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access (Qed 0.64ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_2 (Qed 0.81ms) (CVC5)
+[wp] Proved goals:    4 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2 (0.64ms-0.36ms-0.81ms)
+  Unknown:         2
+[wp:pedantic-assigns] max_ptr_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_ptr'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_ptr_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_2 (Qed 0.78ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access (Qed 0.94ms) (CVC5)
+[wp] Proved goals:    4 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2 (0.78ms-0.43ms-0.94ms)
+  Unknown:         2
+[wp:pedantic-assigns] max_ptr_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_ptr'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_ptr_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 6 goals scheduled
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_6 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_4 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access_2 (Qed 0.70ms) (CVC5)
+[wp] [Unknown] typed_max_ptr_assert_rte_mem_access (Qed 0.80ms) (CVC5)
+[wp] Proved goals:    4 / 8
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2 (0.70ms-0.76ms-2ms)
+  Unknown:         4
+[wp:pedantic-assigns] max_ptr_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_ptr'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_seq_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] max_seq_1_rte.c:2: Warning: 
+  Neither code nor specification for function max_idx,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_max_seq_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.50ms)
+  Unknown:         1
+[wp:pedantic-assigns] max_seq_1_rte.c:4: Warning: 
+  No 'assigns' specification for function 'max_seq'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_seq_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] max_seq_2_rte.c:2: Warning: 
+  Neither code nor specification for function max_idx,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_max_seq_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.45ms)
+  Unknown:         1
+[wp:pedantic-assigns] max_seq_2_rte.c:4: Warning: 
+  No 'assigns' specification for function 'max_seq'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing max_seq_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] max_seq_rte.c:2: Warning: 
+  Neither code nor specification for function max_idx,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_max_seq_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.50ms)
+  Unknown:         1
+[wp:pedantic-assigns] max_seq_rte.c:4: Warning: 
+  No 'assigns' specification for function 'max_seq'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing maxarray_1_rte.c (with preprocessing)
+[kernel] maxarray_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing maxarray_1.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 4
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing maxarray_2_rte.c (with preprocessing)
+[kernel] maxarray_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing maxarray_2.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 4
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing maxarray_rte.c (with preprocessing)
+[kernel] maxarray_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing maxarray.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 5
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing min_1_rte.c (with preprocessing)
+[kernel] min_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing min_1.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 3
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing min_2_rte.c (with preprocessing)
+[kernel] min_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing min_2.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 3
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing min_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] min_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'min'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing min_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] min_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'min'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing min_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] min_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'min'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing min_rte.c (with preprocessing)
+[kernel] min_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing min.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 3
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing minus1_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_minus1_assert_rte_signed_overflow (Qed 0.76ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.76ms)
+  Unknown:         1
+[wp:pedantic-assigns] minus1_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'minus1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing minus1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_minus1_assert_rte_signed_overflow (Qed 0.76ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.76ms)
+  Unknown:         1
+[wp:pedantic-assigns] minus1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'minus1'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing opa_1_rte.c (with preprocessing)
+[kernel] opa_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing opa_1.c (with preprocessing)
+  3     [kernel] opa_1.c:2: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing opa_2_rte.c (with preprocessing)
+[kernel] opa_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing opa_2.c (with preprocessing)
+  3     [kernel] opa_2.c:2: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing opa_rte.c (with preprocessing)
+[kernel] opa_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing opa.c (with preprocessing)
+  3     [kernel] opa.c:3: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing opb_rte.c (with preprocessing)
+[kernel] opb_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing opb.c (with preprocessing)
+  3     [kernel] opb.c:2: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing opc_rte.c (with preprocessing)
+[kernel] opc_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing opc.c (with preprocessing)
+  3     [kernel] opc.c:2: User Error:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing partition_1_rte.c (with preprocessing)
+[kernel] partition_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing partition_1.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 5
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing partition_2_rte.c (with preprocessing)
+[kernel] partition_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing partition_2.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 5
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing partition_rte.c (with preprocessing)
+[kernel] partition_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing partition.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 6
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing pick_element_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] pick_element_1_rte.c:2: Warning: 
+  Neither code nor specification for function pick_index,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_pick_element_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.35ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_element_1_rte.c:4: Warning: 
+  No 'assigns' specification for function 'pick_element'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_element_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] pick_element_2_rte.c:2: Warning: 
+  Neither code nor specification for function pick_index,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_pick_element_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.42ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_element_2_rte.c:4: Warning: 
+  No 'assigns' specification for function 'pick_element'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_element_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] pick_element_3_rte.c:2: Warning: 
+  Neither code nor specification for function pick_index,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_pick_element_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.36ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_element_3_rte.c:4: Warning: 
+  No 'assigns' specification for function 'pick_element'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_element_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] pick_element_rte.c:2: Warning: 
+  Neither code nor specification for function pick_index,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Unknown] typed_pick_element_assert_rte_mem_access (Qed 0.95ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.32ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_element_rte.c:4: Warning: 
+  No 'assigns' specification for function 'pick_element'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_first_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_pick_first_assert_rte_mem_access (Qed 0.98ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.98ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_first_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_first'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_first_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_pick_first_assert_rte_mem_access (Qed 0.77ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.77ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_first_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_first'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_first_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_pick_first_assert_rte_mem_access (Qed 0.79ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.79ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_first_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_first'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_first_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_pick_first_assert_rte_mem_access (Qed 0.74ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.74ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_first_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_first'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_index_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] pick_index_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_index'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_index_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] pick_index_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_index'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_index_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] pick_index_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_index'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_index_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] pick_index_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_index'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_index_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] pick_index_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_index'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing pick_index_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] pick_index_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_index'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing predicate_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] predicate_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'predicate'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing predicate_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] predicate_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'predicate'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing predicate_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] predicate_rte.c:2: Warning: 
+  No 'assigns' specification for function 'predicate'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing q2_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] q2_1_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 11 goals scheduled
+[wp] [Unknown] typed_q2_terminates (Qed 0.88ms) (CVC5)
+[wp] [Unknown] typed_q2_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_q2_assert_rte_mem_access_4 (Qed 4ms) (CVC5)
+[wp] [Timeout] typed_q2_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] Proved goals:    8 / 12
+  Unreachable:     1
+  Qed:             6 (0.88ms-1ms-5ms)
+  CVC5 1.1.2:      1 (24ms)
+  Timeout:         2
+  Unknown:         2
+[wp:pedantic-assigns] q2_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'q2'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing q2_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] q2_2_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 11 goals scheduled
+[wp] [Unknown] typed_q2_terminates (Qed 0.86ms) (CVC5)
+[wp] [Unknown] typed_q2_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_q2_assert_rte_mem_access_4 (Qed 3ms) (CVC5)
+[wp] [Timeout] typed_q2_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] Proved goals:    8 / 12
+  Unreachable:     1
+  Qed:             6 (0.86ms-1ms-6ms)
+  CVC5 1.1.2:      1 (20ms)
+  Timeout:         2
+  Unknown:         2
+[wp:pedantic-assigns] q2_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'q2'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing q2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] q2_rte.c:5: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] 11 goals scheduled
+[wp] [Unknown] typed_q2_terminates (Qed 0.77ms) (CVC5)
+[wp] [Unknown] typed_q2_assert_rte_mem_access (Qed 1ms) (CVC5)
+[wp] [Timeout] typed_q2_assert_rte_mem_access_4 (Qed 3ms) (CVC5)
+[wp] [Timeout] typed_q2_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] Proved goals:    8 / 12
+  Unreachable:     1
+  Qed:             6 (0.77ms-1ms-5ms)
+  CVC5 1.1.2:      1 (21ms)
+  Timeout:         2
+  Unknown:         2
+[wp:pedantic-assigns] q2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'q2'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing reverse_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] reverse_1_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 8 goals scheduled
+[wp] [Unknown] typed_reverse_assert_rte_signed_overflow_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_reverse_assert_rte_signed_overflow (Qed 0.78ms) (CVC5)
+[wp] [Unknown] typed_reverse_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_reverse_terminates (Qed 1ms) (CVC5)
+[wp] [Timeout] typed_reverse_assert_rte_mem_access_2 (Qed 3ms) (CVC5)
+[wp] [Timeout] typed_reverse_assert_rte_signed_overflow_4 (Qed 2ms) (CVC5)
+[wp] Proved goals:    3 / 9
+  Unreachable:     1
+  Qed:             1 (0.78ms-2ms-3ms)
+  CVC5 1.1.2:      1 (28ms)
+  Timeout:         2
+  Unknown:         4
+[wp:pedantic-assigns] reverse_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'reverse'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing reverse_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] reverse_2_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 8 goals scheduled
+[wp] [Unknown] typed_reverse_assert_rte_signed_overflow_2 (Qed 3ms) (CVC5)
+[wp] [Unknown] typed_reverse_assert_rte_signed_overflow (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_reverse_terminates (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_reverse_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_reverse_assert_rte_mem_access_2 (Qed 4ms) (CVC5)
+[wp] [Timeout] typed_reverse_assert_rte_signed_overflow_4 (Qed 3ms) (CVC5)
+[wp] Proved goals:    3 / 9
+  Unreachable:     1
+  Qed:             1 (1ms-2ms-4ms)
+  CVC5 1.1.2:      1 (39ms)
+  Timeout:         2
+  Unknown:         4
+[wp:pedantic-assigns] reverse_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'reverse'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing reverse_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] reverse_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 8 goals scheduled
+[wp] [Unknown] typed_reverse_assert_rte_signed_overflow_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_reverse_assert_rte_signed_overflow (Qed 0.91ms) (CVC5)
+[wp] [Unknown] typed_reverse_terminates (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_reverse_assert_rte_mem_access (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_reverse_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Timeout] typed_reverse_assert_rte_signed_overflow_4 (Qed 2ms) (CVC5)
+[wp] Proved goals:    3 / 9
+  Unreachable:     1
+  Qed:             1 (0.91ms-2ms-2ms)
+  CVC5 1.1.2:      1 (19ms)
+  Timeout:         2
+  Unknown:         4
+[wp:pedantic-assigns] reverse_rte.c:2: Warning: 
+  No 'assigns' specification for function 'reverse'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing swap_1_rte.c (with preprocessing)
+[kernel] swap_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing swap_1.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 2
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing swap_2_rte.c (with preprocessing)
+[kernel] swap_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing swap_2.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 2
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing swap_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_swap_assert_rte_mem_access_3 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access_4 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access_2 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access (Qed 0.86ms) (CVC5)
+[wp] Proved goals:    2 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.86ms-2ms-2ms)
+  Unknown:         4
+[wp:pedantic-assigns] swap_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'swap'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing swap_4_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_swap_assert_rte_mem_access_4 (Qed 2ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access_3 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access_2 (Qed 0.97ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access (Qed 0.55ms) (CVC5)
+[wp] Proved goals:    2 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.55ms-2ms)
+  Unknown:         4
+[wp:pedantic-assigns] swap_4_rte.c:2: Warning: 
+  No 'assigns' specification for function 'swap'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing swap_5_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_swap_assert_rte_mem_access_4 (Qed 1ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access_3 (Qed 0.99ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access_2 (Qed 0.95ms) (CVC5)
+[wp] [Unknown] typed_swap_assert_rte_mem_access (Qed 0.60ms) (CVC5)
+[wp] Proved goals:    2 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.60ms-1ms)
+  Unknown:         4
+[wp:pedantic-assigns] swap_5_rte.c:2: Warning: 
+  No 'assigns' specification for function 'swap'.
+  Callers assumptions might be imprecise.
+[kernel] Parsing swap_rte.c (with preprocessing)
+[kernel] swap_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing swap.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 2
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing while_1_rte.c (with preprocessing)
+[kernel] while_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing while_1.c (with preprocessing)
+  3     [kernel] while_1.c:2:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing while_2_rte.c (with preprocessing)
+[kernel] while_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing while_2.c (with preprocessing)
+  3     [kernel] while_2.c:2:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing while_3_rte.c (with preprocessing)
+[kernel] while_3_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing while_3.c (with preprocessing)
+  3     [kernel] while_3.c:2:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing while_4_rte.c (with preprocessing)
+[kernel] while_4_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing while_4.c (with preprocessing)
+  3     [kernel] while_4.c:2:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing while_rte.c (with preprocessing)
+[kernel] while_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing while.c (with preprocessing)
+  3     [kernel] while.c:2:
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing wrapLines_rte.c (with preprocessing)
+[kernel] wrapLines_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing wrapLines.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 3
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing wrapLines_simpl_rte.c (with preprocessing)
+[kernel] wrapLines_simpl_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing wrapLines_simpl.c (with preprocessing)
+  3     [kernel] Warning: end of file reached before line 3
+[kernel] Frama-C aborted: invalid user input.

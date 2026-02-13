@@ -1,0 +1,11 @@
+[kernel] Parsing while_4.c (with preprocessing)
+[kernel] while_4.c:5: 
+  syntax error:
+  Location: line 5, column 72
+  3       loop invariant 0 <= lastChange <= n;
+  4       loop invariant \valid(s+(0..n-1));
+  5       loop assigns nextSpace, nextNewLine, lastSpace, lastChange, s[0..n-1];
+                                                                                ^
+  6     */
+  7     while(1) {
+[kernel] Frama-C aborted: invalid user input.

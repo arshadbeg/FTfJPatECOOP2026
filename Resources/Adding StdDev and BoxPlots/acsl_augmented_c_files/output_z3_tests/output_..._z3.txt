@@ -1,0 +1,2 @@
+[kernel] User Error: source file '...' does not exist
+[kernel] Frama-C aborted: invalid user input.

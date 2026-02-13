@@ -1,0 +1,8 @@
+[kernel] Parsing dfa_spec_aab0_3.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] Proved goals:    3 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             1

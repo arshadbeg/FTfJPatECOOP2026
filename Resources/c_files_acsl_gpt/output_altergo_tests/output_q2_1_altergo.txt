@@ -1,0 +1,11 @@
+[kernel] Parsing q2_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] q2_1.c:9: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] 3 goals scheduled
+[wp] [Timeout] typed_q2_assigns (Qed 0.85ms) (Alt-Ergo)
+[wp] [Timeout] typed_q2_terminates (Qed 1ms) (Alt-Ergo)
+[wp] Proved goals:    2 / 4
+  Unreachable:     1
+  Qed:             1 (0.85ms-0.62ms-1ms)
+  Timeout:         2

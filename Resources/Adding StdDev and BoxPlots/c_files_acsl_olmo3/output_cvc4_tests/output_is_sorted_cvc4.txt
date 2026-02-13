@@ -1,0 +1,14 @@
+[kernel] Parsing is_sorted.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] is_sorted.c:8: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_is_sorted_terminates (Qed 2ms) (CVC4)
+[wp] Proved goals:    1 / 2
+  Unreachable:     1
+  Qed:             0 (2ms)
+  Unknown:         1
+[wp:pedantic-assigns] is_sorted.c:7: Warning: 
+  No 'assigns' specification for function 'is_sorted'.
+  Callers assumptions might be imprecise.

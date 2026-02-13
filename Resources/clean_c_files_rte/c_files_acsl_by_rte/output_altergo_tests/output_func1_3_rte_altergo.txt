@@ -1,0 +1,20 @@
+[kernel] Parsing func1_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 16 goals scheduled
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_8 (Qed 2ms) (Alt-Ergo)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_6 (Qed 1ms) (Alt-Ergo)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_4 (Qed 0.84ms) (Alt-Ergo)
+[wp] [Timeout] typed_func2_assert_rte_signed_overflow_2 (Qed 0.59ms) (Alt-Ergo)
+[wp] Proved goals:   16 / 20
+  Terminating:       2
+  Unreachable:       2
+  Qed:               8 (0.54ms-0.48ms-2ms)
+  Alt-Ergo 2.6.2:    4 (25ms-30ms)
+  Timeout:           4
+[wp:pedantic-assigns] func1_3_rte.c:14: Warning: 
+  No 'assigns' specification for function 'func1'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] func1_3_rte.c:48: Warning: 
+  No 'assigns' specification for function 'func2'.
+  Callers assumptions might be imprecise.

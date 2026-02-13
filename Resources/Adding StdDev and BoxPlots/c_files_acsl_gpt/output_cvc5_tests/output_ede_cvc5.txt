@@ -1,0 +1,5 @@
+[kernel] Parsing ede.c (with preprocessing)
+[kernel:annot-error] ede.c:2: Warning: 
+  unbound logic function e. Ignoring logic specification of function ede
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

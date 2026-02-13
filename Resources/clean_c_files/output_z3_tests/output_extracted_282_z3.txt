@@ -1,0 +1,8 @@
+[kernel] Parsing extracted_282.c (with preprocessing)
+[kernel] extracted_282.c:1: 
+  syntax error:
+  Location: line 1, column 6, before or at token: return
+  1     return 1;
+              ^
+  2     }
+[kernel] Frama-C aborted: invalid user input.

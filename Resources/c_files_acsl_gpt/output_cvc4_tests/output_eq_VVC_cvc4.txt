@@ -1,0 +1,5 @@
+[kernel] Parsing eq_VVC.c (with preprocessing)
+[kernel:annot-error] eq_VVC.c:17: Warning: 
+  unbound logic function eq_VC. Ignoring logic specification of function eq_VVC
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

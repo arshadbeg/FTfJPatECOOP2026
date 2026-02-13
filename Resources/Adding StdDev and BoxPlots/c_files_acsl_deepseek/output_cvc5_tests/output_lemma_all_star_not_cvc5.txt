@@ -1,0 +1,5 @@
+[kernel] Parsing lemma_all_star_not.c (with preprocessing)
+[kernel:annot-error] lemma_all_star_not.c:4: Warning: 
+  unbound logic variable x. Ignoring logic specification of function lemma_star_A_not
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

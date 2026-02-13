@@ -1,0 +1,13 @@
+[kernel] Parsing matcher.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] FRAMAC_SHARE/libc/string.h:172: Warning: 
+  Neither code nor explicit exits and terminates for function strlen,
+   generating default clauses. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 13 goals scheduled
+[wp] [Timeout] typed_matcher_call_strlen_requires_valid_string_s (Qed 1ms) (CVC4)
+[wp] [Timeout] typed_matcher_ensures_3 (Qed 16ms) (CVC4)
+[wp] [Timeout] typed_matcher_ensures_2 (Qed 17ms) (CVC4)
+[wp] Proved goals:   10 / 13
+  Qed:            10 (1ms-3ms-17ms)
+  Timeout:         3

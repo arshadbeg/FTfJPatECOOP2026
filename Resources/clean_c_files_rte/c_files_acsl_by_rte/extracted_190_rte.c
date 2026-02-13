@@ -1,0 +1,8 @@
+[kernel] Warning: no input file.
+[kernel] Parsing extracted_190.c (with preprocessing)
+[kernel] extracted_190.c:1: User Error: 
+  Cannot resolve variable LENGTH
+  1     int vec[LENGTH];
+                ^^^^^^
+  2     int max;
+[kernel] Frama-C aborted: invalid user input.

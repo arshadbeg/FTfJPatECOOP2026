@@ -1,0 +1,5 @@
+[kernel] Parsing max_ptr_4.c (with preprocessing)
+[kernel:annot-error] max_ptr_4.c:9: Warning: 
+  Attribute annotation 'assume' are not supported anymore, use regular C attributes instead.
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

@@ -1,0 +1,50 @@
+#include <limits.h>
+
+int index(int  x0, int  x1, int  x2, int  x3) {
+  int x5 = x2 * x1;
+  int x6 = x5 + x3;
+  return x6;
+}
+
+
+void add(int  * x63, int  x64, int  x65, int  * x66, int  x67, int  x68, int  * x69, int  x70, int  x71) {
+  
+  for(int x76=0; x76 < x70; x76++) {
+    
+    for(int x78=0; x78 < x71; x78++) {
+      int x79 = index(x64,x65,x76,x78);
+      int x80 = x63[x79];
+      int x81 = index(x67,x68,x76,x78);
+      int x82 = x66[x81];
+      int x83 = x80 || x82;
+      int x84 = index(x70,x71,x76,x78);
+      x69[x84] = x83;
+    }
+  }
+}
+
+void scalar_mult(int  x110, int  * x111, int  x112, int  x113, int  * x114, int  x115, int  x116) {
+  
+  for(int x121=0; x121 < x115; x121++) {
+    
+    for(int x123=0; x123 < x116; x123++) {
+      int x126;
+      if (x110) {
+        int x124 = index(x112,x113,x121,x123);
+        int x125 = x111[x124];
+        x126 = x125;
+      } else {
+        x126 = 0/*false*/;
+      }
+      int x127 = index(x115,x116,x121,x123);
+      x114[x127] = x126;
+    }
+  }
+}
+
+int main(void)
+{
+    
+    index(0, 0, 0, 0);
+    return 0;
+}

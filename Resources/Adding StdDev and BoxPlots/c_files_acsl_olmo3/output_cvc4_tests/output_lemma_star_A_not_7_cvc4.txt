@@ -1,0 +1,4 @@
+[kernel] Parsing lemma_star_A_not_7.c (with preprocessing)
+[kernel:annot-error] lemma_star_A_not_7.c:5: Warning: unexpected token 'loop'
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

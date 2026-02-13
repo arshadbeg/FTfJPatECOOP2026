@@ -1,0 +1,10 @@
+[kernel] Warning: no input file.
+[kernel] Parsing OutAndIn.c (with preprocessing)
+[kernel] OutAndIn.c:1: 
+  Invalid symbol:
+  Location: line 1, between columns 0 and 1, before or at token: @
+  1     @ ensures *o == *i;
+        ^
+  2     */
+  3     void OutAndIn(int *i, int *o) {
+[kernel] Frama-C aborted: invalid user input.

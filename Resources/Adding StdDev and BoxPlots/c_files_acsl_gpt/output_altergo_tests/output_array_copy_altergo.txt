@@ -1,0 +1,12 @@
+[kernel] Parsing array_copy.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 20 goals scheduled
+[wp] [Timeout] typed_array_copy_loop_invariant_4_preserved (Qed 5ms) (Alt-Ergo)
+[wp] [Timeout] typed_array_copy_loop_invariant_2_preserved (Qed 5ms) (Alt-Ergo)
+[wp] Proved goals:   20 / 22
+  Terminating:       1
+  Unreachable:       1
+  Qed:              14 (4ms-3ms-25ms)
+  Alt-Ergo 2.6.2:    4 (10ms-20ms-27ms)
+  Timeout:           2

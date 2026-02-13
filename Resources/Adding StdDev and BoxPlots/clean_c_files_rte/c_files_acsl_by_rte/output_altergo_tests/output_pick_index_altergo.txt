@@ -1,0 +1,9 @@
+[kernel] Parsing pick_index_rte.c (with preprocessing)
+[kernel] pick_index_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing pick_index.c (with preprocessing)
+  3     [rte:annot] annotating function pick_index
+[kernel] Frama-C aborted: invalid user input.

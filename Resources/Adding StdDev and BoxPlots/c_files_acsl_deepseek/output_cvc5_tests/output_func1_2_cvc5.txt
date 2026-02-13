@@ -1,0 +1,7 @@
+[kernel] Parsing func1_2.c (with preprocessing)
+[kernel] func1_2.c:8: User Error: 
+  forward declaration of enum only allowed for GCC machdeps; see option -machdep or run 'frama-c -machdep help' for the list of available machdeps
+[kernel:annot-error] func1_2.c:4: Warning: 
+  unbound logic variable equilateral. Ignoring logic specification of function func1
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

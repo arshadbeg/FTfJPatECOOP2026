@@ -1,0 +1,9 @@
+[kernel] Parsing index_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] Proved goals:    5 / 5
+  Terminating:       1
+  Unreachable:       1
+  Qed:               2 (0.74ms)
+  Alt-Ergo 2.6.2:    1 (19ms)

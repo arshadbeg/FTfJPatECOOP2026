@@ -1,0 +1,14 @@
+[kernel] Parsing lemma_star_A_all_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] lemma_star_A_all_1_rte.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Timeout] typed_lemma_star_A_all_terminates (Z3)
+[wp] Proved goals:    2 / 3
+  Unreachable:     1
+  Qed:             1
+  Timeout:         1
+[wp:pedantic-assigns] lemma_star_A_all_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'lemma_star_A_all'.
+  Callers assumptions might be imprecise.

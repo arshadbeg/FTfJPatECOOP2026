@@ -1,0 +1,15 @@
+[kernel] Parsing ded_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] ded_rte.c:2: Warning: 
+  Neither code nor specification for function d,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[kernel:annot:missing-spec] ded_rte.c:4: Warning: 
+  Neither code nor specification for function e,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] ded_rte.c:6: Warning: 
+  No 'assigns' specification for function 'ded'.
+  Callers assumptions might be imprecise.

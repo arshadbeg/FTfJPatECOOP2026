@@ -1,0 +1,9 @@
+[kernel] Parsing eq_vec_Int_2_rte.c (with preprocessing)
+[kernel] eq_vec_Int_2_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing eq_vec_Int_2.c (with preprocessing)
+  3     [rte:annot] annotating function eq_vec_Int
+[kernel] Frama-C aborted: invalid user input.

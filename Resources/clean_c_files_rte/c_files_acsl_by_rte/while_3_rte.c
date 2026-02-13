@@ -1,0 +1,11 @@
+[kernel] Warning: no input file.
+[kernel] Parsing while_3.c (with preprocessing)
+[kernel] while_3.c:2: 
+  syntax error:
+  Location: line 2, column 7, before or at token: while
+  1     
+  2       while(lastSpace != -1) {
+               ^
+  3         if(lastSpace - lastBreak > lineLength) {
+  4           s[lastSpace] = '\n';
+[kernel] Frama-C aborted: invalid user input.

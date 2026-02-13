@@ -1,0 +1,9 @@
+[kernel] Parsing max_ptr.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 6 goals scheduled
+[wp] Proved goals:    8 / 8
+  Terminating:     1
+  Unreachable:     1
+  Qed:             3 (3ms-2ms-6ms)
+  CVC5 1.1.2:      3 (4ms-10ms)

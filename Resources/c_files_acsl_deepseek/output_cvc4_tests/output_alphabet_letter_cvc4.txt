@@ -1,0 +1,12 @@
+[kernel] Parsing alphabet_letter.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 11 goals scheduled
+[wp] Proved goals:   13 / 13
+  Terminating:     1
+  Unreachable:     1
+  Qed:            10 (1ms)
+  CVC4 1.8:        1 (17ms)
+[wp:pedantic-assigns] alphabet_letter.c:10: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.

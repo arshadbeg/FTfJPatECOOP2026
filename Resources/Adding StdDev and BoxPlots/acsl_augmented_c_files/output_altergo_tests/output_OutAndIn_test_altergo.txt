@@ -1,0 +1,14 @@
+[kernel] Parsing OutAndIn_test.c (with preprocessing)
+[kernel:typing:implicit-function-declaration] OutAndIn_test.c:5: Warning: 
+  Calling undeclared function OutAndIn. Old style K&R code?
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] OutAndIn_test.c:5: Warning: 
+  Neither code nor specification for function OutAndIn,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] OutAndIn_test.c:1: Warning: 
+  No 'assigns' specification for function 'OutAndIn_test'.
+  Callers assumptions might be imprecise.

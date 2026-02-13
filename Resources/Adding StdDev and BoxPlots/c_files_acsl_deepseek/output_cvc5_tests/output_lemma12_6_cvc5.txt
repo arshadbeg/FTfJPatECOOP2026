@@ -1,0 +1,5 @@
+[kernel] Parsing lemma12_6.c (with preprocessing)
+[kernel:annot-error] lemma12_6.c:2: Warning: 
+  unbound logic predicate bwd1. Ignoring code annotation
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

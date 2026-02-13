@@ -1,0 +1,11 @@
+[kernel] Parsing while_1.c (with preprocessing)
+[kernel] while_1.c:6: 
+  syntax error:
+  Location: line 6, column 24
+  4       loop invariant \forall integer j; 0 <= j < i ==> u[j] <= u[max];
+  5       loop assigns i, max;
+  6       loop variant size - i;
+                                ^
+  7     */
+  8     while (i < size) {
+[kernel] Frama-C aborted: invalid user input.

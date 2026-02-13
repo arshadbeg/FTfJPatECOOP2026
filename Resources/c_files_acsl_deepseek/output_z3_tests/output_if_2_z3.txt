@@ -1,0 +1,11 @@
+[kernel] Parsing if_2.c (with preprocessing)
+[kernel] if_2.c:7: 
+  syntax error:
+  Location: line 7, column 23
+  5         loop invariant \forall integer k; i < k < j ==> A[k] > x;
+  6         loop assigns j, i, A[p..r];
+  7         loop variant r - j;
+                               ^
+  8     */
+  9     for(j=p; j<r; j++)
+[kernel] Frama-C aborted: invalid user input.

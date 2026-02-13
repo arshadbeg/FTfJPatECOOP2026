@@ -1,0 +1,4 @@
+[kernel] Parsing indexOf.c (with preprocessing)
+[kernel:annot-error] indexOf.c:9: Warning: unexpected token ';'
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

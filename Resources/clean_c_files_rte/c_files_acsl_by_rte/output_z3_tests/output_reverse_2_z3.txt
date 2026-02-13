@@ -1,0 +1,21 @@
+[kernel] Parsing reverse_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] reverse_2_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 8 goals scheduled
+[wp] [Unknown] typed_reverse_assert_rte_mem_access_2 (Qed 3ms) (Z3)
+[wp] [Unknown] typed_reverse_assert_rte_signed_overflow_4 (Qed 3ms) (Z3)
+[wp] [Unknown] typed_reverse_assert_rte_signed_overflow_2 (Qed 2ms) (Z3)
+[wp] [Unknown] typed_reverse_assert_rte_mem_access (Qed 2ms) (Z3)
+[wp] [Timeout] typed_reverse_assert_rte_signed_overflow (Qed 0.98ms) (Z3)
+[wp] [Timeout] typed_reverse_terminates (Qed 1ms) (Z3)
+[wp] Proved goals:    3 / 9
+  Unreachable:     1
+  Qed:             1 (0.98ms-2ms-3ms)
+  Z3 4.8.12:       1 (22ms)
+  Timeout:         2
+  Unknown:         4
+[wp:pedantic-assigns] reverse_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'reverse'.
+  Callers assumptions might be imprecise.

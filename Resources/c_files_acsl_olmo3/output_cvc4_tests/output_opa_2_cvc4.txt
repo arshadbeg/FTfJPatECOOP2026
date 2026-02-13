@@ -1,0 +1,10 @@
+[kernel] Parsing opa_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] opa_2.c:9: Warning: 
+  No 'assigns' specification for function 'minus1'.
+  Callers assumptions might be imprecise.

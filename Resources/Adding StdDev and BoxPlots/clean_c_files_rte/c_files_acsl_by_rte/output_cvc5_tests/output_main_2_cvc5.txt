@@ -1,0 +1,12 @@
+[kernel] Parsing main_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] main_2_rte.c:2: Warning: 
+  Neither code nor specification for function swap,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] main_2_rte.c:4: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.

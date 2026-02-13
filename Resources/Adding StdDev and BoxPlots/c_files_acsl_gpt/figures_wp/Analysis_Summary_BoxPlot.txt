@@ -1,0 +1,23 @@
+arshadbeg@ArshadBegMU$ python3 wp_verifiers_analysis2.py
+
+===== WP VERIFIER SUMMARY (STD-BASED) =====
+
+          runs  wp_reached  min_success  max_success  std_success  total_timeouts  mean_qed_time_ms  std_qed_time_ms
+solver
+Alt-Ergo   177           0        16.67        100.0        28.15             272              1.86             2.88
+CVC4       175           0        16.67        100.0        27.64               8              2.00             2.88
+CVC5       173           0        16.67        100.0        27.34              10              2.30             3.18
+Z3         175           0        16.67        100.0        27.42              20              1.97             2.60
+
+===== AUTOMATED SOLVER ANALYSIS =====
+
+Alt-Ergo was executed 177 times, with WP reaching proof obligations in 0 runs. Proof success values ranged from 16.67 to 100.00, with a standard deviation of 28.15, indicating high variability across verification tasks. The solver incurred 272 timeouts in total. Qed times had a mean of 1.86 ms and a standard deviation of 2.88 ms, suggesting unstable proof discharge performance.
+
+CVC4 was executed 175 times, with WP reaching proof obligations in 0 runs. Proof success values ranged from 16.67 to 100.00, with a standard deviation of 27.64, indicating high variability across verification tasks. The solver incurred 8 timeouts in total. Qed times had a mean of 2.00 ms and a standard deviation of 2.88 ms, suggesting unstable proof discharge performance.
+
+CVC5 was executed 173 times, with WP reaching proof obligations in 0 runs. Proof success values ranged from 16.67 to 100.00, with a standard deviation of 27.34, indicating high variability across verification tasks. The solver incurred 10 timeouts in total. Qed times had a mean of 2.30 ms and a standard deviation of 3.18 ms, suggesting unstable proof discharge performance.
+
+Z3 was executed 175 times, with WP reaching proof obligations in 0 runs. Proof success values ranged from 16.67 to 100.00, with a standard deviation of 27.42, indicating high variability across verification tasks. The solver incurred 20 timeouts in total. Qed times had a mean of 1.97 ms and a standard deviation of 2.60 ms, suggesting unstable proof discharge performance.
+
+All WP verifier figures saved in: figures_wp
+arshadbeg@ArshadBegMU$

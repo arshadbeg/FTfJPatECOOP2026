@@ -1,0 +1,10 @@
+[kernel] Parsing swap.c (with preprocessing)
+[kernel] Warning: end of file reached before line 8
+[kernel] swap.c:7: 
+  syntax error:
+  Location: between lines 7 and 8, before or at token: 
+  5       ensures *a == \old(*b) && *b == \old(*a);
+  6     */
+  
+  7     void swap(int* a, int* b){
+[kernel] Frama-C aborted: invalid user input.

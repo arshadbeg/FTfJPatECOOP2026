@@ -1,0 +1,13 @@
+[kernel] Parsing eq_VC_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_VC_1.c:4: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_eq_VC_terminates (Qed 4ms) (CVC4)
+[wp] Proved goals:    1 / 2
+  Unreachable:     1
+  Qed:             0 (4ms)
+  Unknown:         1
+[wp:pedantic-assigns] eq_VC_1.c:1: Warning: 
+  No 'assigns' specification for function 'eq_VC'.
+  Callers assumptions might be imprecise.

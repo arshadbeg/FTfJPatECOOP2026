@@ -1,0 +1,14 @@
+[kernel] Parsing pick_element_2.c (with preprocessing)
+[kernel:typing:implicit-function-declaration] pick_element_2.c:3: Warning: 
+  Calling undeclared function pick_index. Old style K&R code?
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] pick_element_2.c:3: Warning: 
+  Neither code nor specification for function pick_index,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] pick_element_2.c:2: Warning: 
+  No 'assigns' specification for function 'pick_element'.
+  Callers assumptions might be imprecise.

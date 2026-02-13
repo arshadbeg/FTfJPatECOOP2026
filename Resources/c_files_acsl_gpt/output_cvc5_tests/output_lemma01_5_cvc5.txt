@@ -1,0 +1,5 @@
+[kernel] Parsing lemma01_5.c (with preprocessing)
+[kernel:annot-error] lemma01_5.c:3: Warning: 
+  unbound logic predicate star_A. Ignoring code annotation
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

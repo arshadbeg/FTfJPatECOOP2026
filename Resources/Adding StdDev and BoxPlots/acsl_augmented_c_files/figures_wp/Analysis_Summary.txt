@@ -1,0 +1,16 @@
+arshadbeg@ArshadBegMU$ python3 wp_verifiers_analysis.py
+
+===== WP VERIFIER SUMMARY =====
+
+          runs  wp_reached  mean_success  median_success  total_timeouts  mean_qed_time_ms
+solver
+Alt-Ergo   115           0         99.15           100.0               6               7.5
+CVC4       113           0         99.12           100.0               0               8.5
+CVC5       111           0         99.09           100.0               0               7.5
+Z3         113           0         99.12           100.0               4               6.5
+
+All WP verifier figures saved in: figures_wp
+arshadbeg@ArshadBegMU$
+
+WP Verifier Analysis.
+Across the RTE-annotated C files in this dataset, all four WP back-end solvers—Alt-Ergo, CVC4, CVC5, and Z3—exhibited very high proof effectiveness on the files that reached the WP plugin, with mean proof success around 99% and median success at 100%. Timeout occurrences were minimal, with Alt-Ergo and Z3 experiencing a few timeouts (6 and 4, respectively) while CVC4 and CVC5 reported none. Average Qed times were low and comparable across solvers (6.5–8.5 ms), indicating efficient verification once the WP analysis could run. Notably, the wp_reached count is zero for all solvers, reflecting that these runs either did not produce new WP goals or were limited by the specific annotations and preprocessing applied; as a result, the reported high proof percentages should be interpreted in the context of the WP plugin execution coverage.

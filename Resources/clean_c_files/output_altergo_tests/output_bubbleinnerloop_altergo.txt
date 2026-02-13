@@ -1,0 +1,14 @@
+[kernel] Parsing bubbleinnerloop.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] bubbleinnerloop.c:5: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 1 goal scheduled
+[wp] [Timeout] typed_bubbleinnerloop_terminates (Qed 2ms) (Alt-Ergo)
+[wp] Proved goals:    1 / 2
+  Unreachable:     1
+  Qed:             0 (2ms)
+  Timeout:         1
+[wp:pedantic-assigns] bubbleinnerloop.c:2: Warning: 
+  No 'assigns' specification for function 'bubbleinnerloop'.
+  Callers assumptions might be imprecise.

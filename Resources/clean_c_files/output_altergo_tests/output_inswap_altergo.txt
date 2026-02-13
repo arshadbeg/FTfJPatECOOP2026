@@ -1,0 +1,19 @@
+[kernel] Parsing inswap.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] inswap.c:20: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] inswap.c:13: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Timeout] typed_insort_terminates_part3 (Qed 11ms) (Alt-Ergo)
+[wp] [Timeout] typed_insort_terminates_part2 (Qed 2ms) (Alt-Ergo)
+[wp] Proved goals:    4 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2 (2ms-3ms-11ms)
+  Timeout:         2
+[wp:pedantic-assigns] inswap.c:3: Warning: 
+  No 'assigns' specification for function 'inswap'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] inswap.c:10: Warning: 
+  No 'assigns' specification for function 'insort'.
+  Callers assumptions might be imprecise.

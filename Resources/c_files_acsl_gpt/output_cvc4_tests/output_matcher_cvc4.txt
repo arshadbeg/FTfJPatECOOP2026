@@ -1,0 +1,10 @@
+[kernel] Parsing matcher.c (with preprocessing)
+[kernel:typing:implicit-function-declaration] matcher.c:7: Warning: 
+  Calling undeclared function strlen. Old style K&R code?
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] matcher.c:7: Warning: 
+  Neither code nor specification for function strlen,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] matcher.c:7: User Error: Invalid infinite range s_1+(0..)
+[kernel] Plug-in wp aborted: invalid user input.

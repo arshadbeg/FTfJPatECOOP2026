@@ -1,0 +1,14 @@
+[kernel] Parsing eq_vec_Int_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_vec_Int_1.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_eq_vec_Int_terminates (Qed 11ms) (CVC5)
+[wp] Proved goals:    1 / 2
+  Unreachable:     1
+  Qed:             0 (11ms)
+  Unknown:         1
+[wp:pedantic-assigns] eq_vec_Int_1.c:1: Warning: 
+  No 'assigns' specification for function 'eq_vec_Int'.
+  Callers assumptions might be imprecise.

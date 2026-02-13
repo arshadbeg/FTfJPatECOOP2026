@@ -1,0 +1,12 @@
+[kernel] Parsing min.c (with preprocessing)
+[kernel:CERT:MSC:37] min.c:10: Warning: 
+  Body of function min falls-through. Adding a return statement
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 5 goals scheduled
+[wp] [Timeout] typed_min_assert_missing_return (Qed 1ms) (Alt-Ergo)
+[wp] Proved goals:    6 / 7
+  Terminating:     1
+  Unreachable:     1
+  Qed:             4 (0.21ms)
+  Timeout:         1

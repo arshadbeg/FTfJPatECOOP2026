@@ -1,0 +1,17 @@
+[kernel] Parsing partition_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] partition_1.c:12: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 10 goals scheduled
+[wp] [Timeout] typed_partition_assigns_part4 (Qed 3ms) (Alt-Ergo)
+[wp] [Timeout] typed_partition_assigns_part5 (Qed 2ms) (Alt-Ergo)
+[wp] [Timeout] typed_partition_assigns_part2 (Qed 1ms) (Alt-Ergo)
+[wp] [Timeout] typed_partition_ensures_3 (Qed 7ms) (Alt-Ergo)
+[wp] [Timeout] typed_partition_ensures_2 (Qed 6ms) (Alt-Ergo)
+[wp] [Timeout] typed_partition_ensures (Qed 3ms) (Alt-Ergo)
+[wp] [Timeout] typed_partition_terminates (Qed 2ms) (Alt-Ergo)
+[wp] Proved goals:    4 / 11
+  Unreachable:     1
+  Qed:             3 (1ms-2ms-7ms)
+  Timeout:         7

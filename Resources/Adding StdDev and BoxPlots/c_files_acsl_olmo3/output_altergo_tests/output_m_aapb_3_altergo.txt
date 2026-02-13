@@ -1,0 +1,15 @@
+[kernel] Parsing m_aapb_3.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] m_aapb_3.c:26: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Timeout] typed_m_aapb_assert (Qed 7ms) (Alt-Ergo)
+[wp] [Timeout] typed_m_aapb_terminates (Qed 2ms) (Alt-Ergo)
+[wp] Proved goals:    1 / 3
+  Unreachable:     1
+  Qed:             0 (2ms-7ms)
+  Timeout:         2
+[wp:pedantic-assigns] m_aapb_3.c:16: Warning: 
+  No 'assigns' specification for function 'm_aapb'.
+  Callers assumptions might be imprecise.

@@ -1,0 +1,13 @@
+[kernel] Parsing pick_first_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_pick_first_assert_rte_mem_access (Qed 0.98ms) (CVC5)
+[wp] Proved goals:    2 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.98ms)
+  Unknown:         1
+[wp:pedantic-assigns] pick_first_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'pick_first'.
+  Callers assumptions might be imprecise.

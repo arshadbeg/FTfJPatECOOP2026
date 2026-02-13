@@ -1,0 +1,16 @@
+[kernel] Parsing swap_3_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Unknown] typed_swap_assert_rte_mem_access_4 (Qed 2ms) (Z3)
+[wp] [Unknown] typed_swap_assert_rte_mem_access_3 (Qed 1ms) (Z3)
+[wp] [Unknown] typed_swap_assert_rte_mem_access_2 (Qed 1ms) (Z3)
+[wp] [Unknown] typed_swap_assert_rte_mem_access (Qed 0.62ms) (Z3)
+[wp] Proved goals:    2 / 6
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.62ms-2ms)
+  Unknown:         4
+[wp:pedantic-assigns] swap_3_rte.c:2: Warning: 
+  No 'assigns' specification for function 'swap'.
+  Callers assumptions might be imprecise.

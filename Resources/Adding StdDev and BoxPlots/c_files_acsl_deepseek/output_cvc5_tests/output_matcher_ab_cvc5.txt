@@ -1,0 +1,9 @@
+[kernel] Parsing matcher_ab.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 18 goals scheduled
+[wp] Proved goals:   20 / 20
+  Terminating:     1
+  Unreachable:     1
+  Qed:            16 (110ms-13ms-119ms)
+  CVC5 1.1.2:      2 (17ms-23ms)

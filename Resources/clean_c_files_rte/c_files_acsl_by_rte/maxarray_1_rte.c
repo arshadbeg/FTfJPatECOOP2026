@@ -1,0 +1,11 @@
+[kernel] Warning: no input file.
+[kernel] Parsing maxarray_1.c (with preprocessing)
+[kernel] Warning: end of file reached before line 4
+[kernel] maxarray_1.c:3: 
+  syntax error:
+  Location: between lines 3 and 4, before or at token: 
+  1     int maxarray(int u[], int size) {
+  2         int i = 1;
+  
+  3         max = 0;
+[kernel] Frama-C aborted: invalid user input.

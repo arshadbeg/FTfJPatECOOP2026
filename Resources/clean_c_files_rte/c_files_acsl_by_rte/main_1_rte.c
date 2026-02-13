@@ -1,0 +1,9 @@
+[kernel] Warning: no input file.
+[kernel] Parsing main_1.c (with preprocessing)
+[kernel] Warning: end of file reached before line 2
+[kernel] main_1.c:1: 
+  syntax error:
+  Location: between lines 1 and 2, before or at token: 
+  
+  1     int main(){
+[kernel] Frama-C aborted: invalid user input.

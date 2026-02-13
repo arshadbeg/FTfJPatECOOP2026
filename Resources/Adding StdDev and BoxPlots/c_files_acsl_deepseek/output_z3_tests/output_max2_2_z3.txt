@@ -1,0 +1,15 @@
+[kernel] Parsing max2_2.c (with preprocessing)
+[kernel:CERT:MSC:37] max2_2.c:20: Warning: 
+  Body of function max2 falls-through. Adding a return statement
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 16 goals scheduled
+[wp] [Unknown] typed_max2_assert_missing_return (Qed 1ms) (Z3)
+[wp] Proved goals:   17 / 18
+  Terminating:     1
+  Unreachable:     1
+  Qed:            15 (0.07ms)
+  Unknown:         1
+[wp:pedantic-assigns] max2_2.c:17: Warning: 
+  No 'assigns' specification for function 'max2'.
+  Callers assumptions might be imprecise.

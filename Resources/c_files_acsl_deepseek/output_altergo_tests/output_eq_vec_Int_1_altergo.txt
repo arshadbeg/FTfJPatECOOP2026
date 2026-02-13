@@ -1,0 +1,11 @@
+[kernel] Parsing eq_vec_Int_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 13 goals scheduled
+[wp] [Timeout] typed_eq_vec_Int_ensures (Qed 20ms) (Alt-Ergo)
+[wp] Proved goals:   14 / 15
+  Terminating:       1
+  Unreachable:       1
+  Qed:              10 (10ms-4ms-24ms)
+  Alt-Ergo 2.6.2:    2 (24ms-42ms)
+  Timeout:           1

@@ -1,0 +1,5 @@
+[kernel] Parsing ded_1.c (with preprocessing)
+[kernel:annot-error] ded_1.c:1: Warning: 
+  unbound logic variable d. Ignoring logic specification of function ded
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

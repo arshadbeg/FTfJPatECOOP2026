@@ -1,0 +1,4 @@
+[kernel] Parsing dfa_2.c (with preprocessing)
+[kernel:annot-error] dfa_2.c:13: Warning: unexpected token ';'
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

@@ -1,0 +1,9 @@
+[kernel] Parsing OutAndIn_1_rte.c (with preprocessing)
+[kernel] OutAndIn_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing OutAndIn_1.c (with preprocessing)
+  3     [rte:annot] annotating function OutAndIn
+[kernel] Frama-C aborted: invalid user input.

@@ -1,0 +1,4 @@
+[kernel] Parsing is_sorted.c (with preprocessing)
+[kernel:annot-error] is_sorted.c:9: Warning: unexpected token 'loop'
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

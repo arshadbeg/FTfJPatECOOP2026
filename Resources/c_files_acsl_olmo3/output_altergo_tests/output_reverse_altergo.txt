@@ -1,0 +1,5 @@
+[kernel] Parsing reverse.c (with preprocessing)
+[kernel:annot-error] reverse.c:15: Warning: 
+  Attribute annotation 'assume' are not supported anymore, use regular C attributes instead.
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

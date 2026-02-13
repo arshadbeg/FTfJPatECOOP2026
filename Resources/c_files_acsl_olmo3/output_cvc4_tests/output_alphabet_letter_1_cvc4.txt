@@ -1,0 +1,19 @@
+[kernel] Parsing alphabet_letter_1.c (with preprocessing)
+[kernel:typing:implicit-function-declaration] alphabet_letter_1.c:13: Warning: 
+  Calling undeclared function alphabet_letter. Old style K&R code?
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] alphabet_letter_1.c:13: Warning: 
+  Neither code nor specification for function alphabet_letter,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    4 / 4
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2
+[wp:pedantic-assigns] alphabet_letter_1.c:6: Warning: 
+  No 'assigns' specification for function 'OutAndIn'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] alphabet_letter_1.c:10: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.

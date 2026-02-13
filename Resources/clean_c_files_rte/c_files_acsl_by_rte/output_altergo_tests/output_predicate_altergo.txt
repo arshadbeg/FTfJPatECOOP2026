@@ -1,0 +1,9 @@
+[kernel] Parsing predicate_rte.c (with preprocessing)
+[kernel] predicate_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing predicate.c (with preprocessing)
+  3     [rte:annot] annotating function predicate
+[kernel] Frama-C aborted: invalid user input.

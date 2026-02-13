@@ -1,0 +1,28 @@
+[kernel] Parsing inswap_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] inswap_rte.c:26: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] inswap_rte.c:18: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Timeout] typed_insort_assert_rte_signed_overflow_2 (Qed 11ms) (Alt-Ergo)
+[wp] [Timeout] typed_insort_assert_rte_mem_access_2 (Qed 11ms) (Alt-Ergo)
+[wp] [Timeout] typed_insort_assert_rte_mem_access (Qed 11ms) (Alt-Ergo)
+[wp] [Timeout] typed_insort_terminates_part3 (Qed 8ms) (Alt-Ergo)
+[wp] [Timeout] typed_insort_terminates_part2 (Qed 2ms) (Alt-Ergo)
+[wp] [Timeout] typed_inswap_assert_rte_mem_access_3 (Qed 2ms) (Alt-Ergo)
+[wp] [Timeout] typed_inswap_assert_rte_mem_access_2 (Qed 1ms) (Alt-Ergo)
+[wp] [Timeout] typed_inswap_assert_rte_mem_access (Qed 1ms) (Alt-Ergo)
+[wp] Proved goals:    6 / 14
+  Terminating:       1
+  Unreachable:       1
+  Qed:               3 (1ms-4ms-11ms)
+  Alt-Ergo 2.6.2:    1 (47ms)
+  Timeout:           8
+[wp:pedantic-assigns] inswap_rte.c:2: Warning: 
+  No 'assigns' specification for function 'inswap'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] inswap_rte.c:15: Warning: 
+  No 'assigns' specification for function 'insort'.
+  Callers assumptions might be imprecise.

@@ -1,0 +1,42 @@
+[kernel] Parsing index_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] index_rte.c:20: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] index_rte.c:17: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] index_rte.c:54: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] index_rte.c:51: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 21 goals scheduled
+[wp] [Unknown] typed_add_assert_rte_mem_access_2 (Qed 14ms) (Z3)
+[wp] [Unknown] typed_add_assert_rte_mem_access (Qed 12ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_assert_rte_mem_access (Qed 27ms) (Z3)
+[wp] [Unknown] typed_add_assert_rte_mem_access_3 (Qed 23ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_assert_rte_mem_access_2 (Qed 71ms) (Z3)
+[wp] [Timeout] typed_add_assert_rte_signed_overflow_2 (Qed 8ms) (Z3)
+[wp] [Timeout] typed_add_terminates_part3 (Qed 6ms) (Z3)
+[wp] [Timeout] typed_add_terminates_part2 (Qed 2ms) (Z3)
+[wp] [Timeout] typed_index_assert_rte_signed_overflow_4 (Qed 2ms) (Z3)
+[wp] [Timeout] typed_index_assert_rte_signed_overflow_3 (Qed 2ms) (Z3)
+[wp] [Timeout] typed_index_assert_rte_signed_overflow_2 (Qed 1ms) (Z3)
+[wp] [Timeout] typed_index_assert_rte_signed_overflow (Qed 0.61ms) (Z3)
+[wp] [Timeout] typed_scalar_mult_terminates_part3 (Qed 12ms) (Z3)
+[wp] [Timeout] typed_scalar_mult_terminates_part2 (Qed 3ms) (Z3)
+[wp] [Timeout] typed_scalar_mult_assert_rte_signed_overflow_2 (Qed 29ms) (Z3)
+[wp] Proved goals:    8 / 23
+  Terminating:     1
+  Unreachable:     1
+  Qed:             6 (0.61ms-10ms-71ms)
+  Timeout:        10
+  Unknown:         5
+[wp:pedantic-assigns] index_rte.c:2: Warning: 
+  No 'assigns' specification for function 'index'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] index_rte.c:13: Warning: 
+  No 'assigns' specification for function 'add'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] index_rte.c:47: Warning: 
+  No 'assigns' specification for function 'scalar_mult'.
+  Callers assumptions might be imprecise.

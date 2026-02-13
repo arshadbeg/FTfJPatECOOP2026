@@ -1,0 +1,9 @@
+[kernel] Parsing gimmeOne_rte.c (with preprocessing)
+[kernel] gimmeOne_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing gimmeOne.c (with preprocessing)
+  3     [rte:annot] annotating function gimmeOne
+[kernel] Frama-C aborted: invalid user input.

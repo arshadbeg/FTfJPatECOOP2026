@@ -1,0 +1,11 @@
+[kernel] Parsing if.c (with preprocessing)
+[kernel] if.c:11: 
+  syntax error:
+  Location: line 11, column 9, before or at token: ...
+  9       // More precise specification requires knowledge of the input parameters and the overall algorithm.
+  10    */
+  11    void if_(...) { // Replace ... with actual parameter list if available
+                 ^
+  12      if (0 <= nextNewLine && nextNewLine < nextSpace) {
+  13        if (nextNewLine - lastChange > length && lastSpace >= 0) {
+[kernel] Frama-C aborted: invalid user input.

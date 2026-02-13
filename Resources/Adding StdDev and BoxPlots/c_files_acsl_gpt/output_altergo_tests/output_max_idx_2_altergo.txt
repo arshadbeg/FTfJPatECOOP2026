@@ -1,0 +1,14 @@
+[kernel] Parsing max_idx_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] max_idx_2.c:10: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Timeout] typed_max_idx_assigns (Qed 0.93ms) (Alt-Ergo)
+[wp] [Timeout] typed_max_idx_ensures_2 (Qed 3ms) (Alt-Ergo)
+[wp] [Timeout] typed_max_idx_ensures (Qed 2ms) (Alt-Ergo)
+[wp] [Timeout] typed_max_idx_terminates (Qed 0.96ms) (Alt-Ergo)
+[wp] Proved goals:    1 / 5
+  Unreachable:     1
+  Qed:             0 (0.93ms-2ms-3ms)
+  Timeout:         4

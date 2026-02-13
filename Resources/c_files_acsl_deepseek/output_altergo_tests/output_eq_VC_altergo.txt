@@ -1,0 +1,5 @@
+[kernel] Parsing eq_VC.c (with preprocessing)
+[kernel:annot-error] eq_VC.c:41: Warning: 
+  unbound logic function eq_VC. Ignoring loop annotation
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

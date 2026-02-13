@@ -1,0 +1,11 @@
+int max_ptr(int* a,int* b){
+	return(*a > *b) ? *a: *b ;
+}
+
+int main(void)
+{
+    int a_var = 0;
+    int b_var = 0;
+    max_ptr(&a_var, &b_var);
+    return 0;
+}

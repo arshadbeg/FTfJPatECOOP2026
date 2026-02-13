@@ -1,0 +1,13 @@
+[kernel] Parsing minus1_1_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_minus1_assert_rte_signed_overflow (Qed 0.72ms) (CVC4)
+[wp] Proved goals:    2 / 3
+  Terminating:     1
+  Unreachable:     1
+  Qed:             0 (0.72ms)
+  Unknown:         1
+[wp:pedantic-assigns] minus1_1_rte.c:2: Warning: 
+  No 'assigns' specification for function 'minus1'.
+  Callers assumptions might be imprecise.

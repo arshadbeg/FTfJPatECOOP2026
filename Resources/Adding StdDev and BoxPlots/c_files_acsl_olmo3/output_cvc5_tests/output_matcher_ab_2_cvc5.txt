@@ -1,0 +1,5 @@
+[kernel] Parsing matcher_ab_2.c (with preprocessing)
+[kernel:annot-error] matcher_ab_2.c:11: Warning: 
+  Attribute annotation 'assume' are not supported anymore, use regular C attributes instead.
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

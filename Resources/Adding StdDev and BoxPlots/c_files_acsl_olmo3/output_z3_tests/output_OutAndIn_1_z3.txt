@@ -1,0 +1,10 @@
+[kernel] Parsing OutAndIn_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] OutAndIn_1.c:6: Warning: 
+  No 'assigns' specification for function 'OutAndIn'.
+  Callers assumptions might be imprecise.

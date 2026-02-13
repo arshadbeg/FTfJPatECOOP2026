@@ -1,0 +1,16 @@
+[kernel] Parsing max_idx_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] max_idx_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 4 goals scheduled
+[wp] [Timeout] typed_max_idx_assert_rte_mem_access_2 (Qed 2ms) (Alt-Ergo)
+[wp] [Timeout] typed_max_idx_terminates (Qed 0.60ms) (Alt-Ergo)
+[wp] [Timeout] typed_max_idx_assert_rte_mem_access (Qed 2ms) (Alt-Ergo)
+[wp] Proved goals:    2 / 5
+  Unreachable:     1
+  Qed:             1 (0.60ms-1ms-2ms)
+  Timeout:         3
+[wp:pedantic-assigns] max_idx_rte.c:2: Warning: 
+  No 'assigns' specification for function 'max_idx'.
+  Callers assumptions might be imprecise.

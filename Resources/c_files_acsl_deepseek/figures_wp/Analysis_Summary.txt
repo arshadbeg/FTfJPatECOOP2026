@@ -1,0 +1,16 @@
+arshadbeg@ArshadBegMU$ python3 wp_verifiers_analysis.py
+
+===== WP VERIFIER SUMMARY =====
+
+          runs  wp_reached  mean_success  median_success  total_timeouts  mean_qed_time_ms
+solver
+Alt-Ergo   149           0         94.89           100.0             130              6.17
+CVC4       147           0         93.76           100.0              13              6.53
+CVC5       145           0         93.80           100.0              23              6.32
+Z3         147           0         94.56           100.0              22              5.04
+
+All WP verifier figures saved in: figures_wp
+arshadbeg@ArshadBegMU$
+
+WP Verifier Analysis on DeepSeek-Generated ACSL.
+For the RTE-annotated C files produced by DeepSeek, all four WP back-end solvers—Alt-Ergo, CVC4, CVC5, and Z3—achieved very high proof effectiveness, with mean success rates ranging from 93.8% (CVC4/CVC5) to 94.9% (Alt-Ergo) and median success consistently at 100%. Timeout behavior varied more noticeably than in previous datasets: Alt-Ergo experienced 130 timeouts, while CVC4, CVC5, and Z3 had 13, 23, and 22 timeouts, respectively, indicating solver-specific sensitivity to certain generated ACSL patterns. Mean Qed times remained low across all solvers (≈5–6.5 ms), demonstrating efficient proof checking where WP could run. As with earlier analyses, the wp_reached count was zero, suggesting that the reported proof success reflects the subset of goals successfully generated and analyzed by the WP plugin.

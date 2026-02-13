@@ -1,0 +1,12 @@
+[kernel] Parsing dfa_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] dfa_2.c:12: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] 7 goals scheduled
+[wp] [Unknown] typed_dfa_assigns_part1 (Qed 1ms) (CVC4)
+[wp] [Unknown] typed_dfa_ensures (Qed 15ms) (CVC4)
+[wp] [Unknown] typed_dfa_terminates (Qed 2ms) (CVC4)
+[wp] Proved goals:    5 / 8
+  Unreachable:     1
+  Qed:             4 (1ms-3ms-15ms)
+  Unknown:         3

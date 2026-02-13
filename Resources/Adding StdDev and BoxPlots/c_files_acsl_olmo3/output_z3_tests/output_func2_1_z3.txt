@@ -1,0 +1,12 @@
+[kernel] Parsing func2_1.c (with preprocessing)
+[kernel] func2_1.c:12: User Error: 
+  forward declaration of enum only allowed for GCC machdeps; see option -machdep or run 'frama-c -machdep help' for the list of available machdeps
+[kernel] func2_1.c:14: User Error: 
+  Cannot resolve variable right
+  12    enum type2 func2(int a, int b, int c) {
+  13      // since a is assumed as hypotenuse
+  14      if (a * a == b * b + c * c) return right;
+                                             ^^^^^
+  15      else if (a * a < b * b + c * c) return acute;
+  16      else return obtuse;
+[kernel] Frama-C aborted: invalid user input.

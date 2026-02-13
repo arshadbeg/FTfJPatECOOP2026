@@ -1,0 +1,12 @@
+[kernel] Parsing indexOf_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 13 goals scheduled
+[wp] [Timeout] typed_indexOf_ensures_3 (Qed 12ms) (Alt-Ergo)
+[wp] [Timeout] typed_indexOf_ensures (Qed 14ms) (Alt-Ergo)
+[wp] Proved goals:   13 / 15
+  Terminating:       1
+  Unreachable:       1
+  Qed:               9 (4ms-3ms-14ms)
+  Alt-Ergo 2.6.2:    2 (20ms-29ms)
+  Timeout:           2

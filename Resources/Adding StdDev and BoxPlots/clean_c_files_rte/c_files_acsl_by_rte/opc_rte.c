@@ -1,0 +1,9 @@
+[kernel] Warning: no input file.
+[kernel] Parsing opc.c (with preprocessing)
+[kernel] opc.c:2: User Error: 
+  Cannot resolve variable rr
+  1     void opc() {
+  2       rr=9000;
+          ^^
+  3     }
+[kernel] Frama-C aborted: invalid user input.

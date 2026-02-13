@@ -1,0 +1,5 @@
+[kernel] Parsing wrapLines.c (with preprocessing)
+[kernel:annot-error] wrapLines.c:3: Warning: 
+  unbound logic variable lineLength. Ignoring specification of function wrapLines
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

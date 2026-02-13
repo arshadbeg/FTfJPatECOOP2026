@@ -1,0 +1,9 @@
+[kernel] Parsing eq_VC_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 13 goals scheduled
+[wp] Proved goals:   15 / 15
+  Terminating:     1
+  Unreachable:     1
+  Qed:            10 (4ms-2ms-14ms)
+  Z3 4.8.12:       3 (11ms-17ms-25ms)

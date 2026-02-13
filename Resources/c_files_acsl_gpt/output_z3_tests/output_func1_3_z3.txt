@@ -1,0 +1,15 @@
+[kernel] Parsing func1_3.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 6 goals scheduled
+[wp] Proved goals:   10 / 10
+  Terminating:     2
+  Unreachable:     2
+  Qed:             1 (4ms-4ms-6ms)
+  Z3 4.8.12:       5 (10ms-18ms)
+[wp:pedantic-assigns] func1_3.c:11: Warning: 
+  No 'assigns' specification for function 'func1'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] func1_3.c:23: Warning: 
+  No 'assigns' specification for function 'func2'.
+  Callers assumptions might be imprecise.

@@ -1,0 +1,16 @@
+arshadbeg@ArshadBegMU$ python3 wp_verifiers_analysis.py
+
+===== WP VERIFIER SUMMARY =====
+
+          runs  wp_reached  mean_success  median_success  total_timeouts  mean_qed_time_ms
+solver
+Alt-Ergo   177           0         80.98           100.0             272              1.86
+CVC4       175           0         81.63           100.0               8              2.00
+CVC5       173           0         81.90           100.0              10              2.30
+Z3         175           0         82.07           100.0              20              1.97
+
+All WP verifier figures saved in: figures_wp
+arshadbeg@ArshadBegMU$
+
+WP Verifier Analysis on GPT-Generated ACSL.
+For C files annotated automatically by GPT, all four WP back-end solvers—Alt-Ergo, CVC4, CVC5, and Z3—achieved moderate-to-high proof effectiveness, with mean success rates between 80.98% (Alt-Ergo) and 82.07% (Z3) and median success uniformly at 100%. Timeout behavior varied considerably: Alt-Ergo experienced 272 timeouts, while CVC4, CVC5, and Z3 reported 8, 10, and 20 timeouts, respectively, highlighting Alt-Ergo’s higher sensitivity to certain automatically generated ACSL patterns. Mean Qed times were low (≈1.86–2.3 ms), indicating that proofs that did run were processed efficiently. The wp_reached count remains zero for all solvers, suggesting that these results reflect only the goals that the WP plugin successfully generated and analyzed from the GPT annotations.

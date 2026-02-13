@@ -1,0 +1,26 @@
+[kernel] Parsing eq_VC_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_VC_rte.c:11: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] eq_VC_rte.c:35: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Timeout] typed_eq_VVC_assert_rte_mem_access_4 (Qed 11ms) (Alt-Ergo)
+[wp] [Timeout] typed_eq_VVC_assert_rte_mem_access_3 (Qed 4ms) (Alt-Ergo)
+[wp] [Timeout] typed_eq_VVC_assert_rte_mem_access_2 (Qed 3ms) (Alt-Ergo)
+[wp] [Timeout] typed_eq_VVC_assert_rte_mem_access (Qed 3ms) (Alt-Ergo)
+[wp] [Timeout] typed_eq_VVC_terminates_part2 (Qed 1ms) (Alt-Ergo)
+[wp] [Timeout] typed_eq_VC_assert_rte_mem_access_2 (Qed 2ms) (Alt-Ergo)
+[wp] [Timeout] typed_eq_VC_assert_rte_mem_access (Qed 2ms) (Alt-Ergo)
+[wp] [Timeout] typed_eq_VC_terminates (Qed 3ms) (Alt-Ergo)
+[wp] Proved goals:    5 / 13
+  Unreachable:     1
+  Qed:             4 (1ms-2ms-11ms)
+  Timeout:         8
+[wp:pedantic-assigns] eq_VC_rte.c:2: Warning: 
+  No 'assigns' specification for function 'eq_VC'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] eq_VC_rte.c:26: Warning: 
+  No 'assigns' specification for function 'eq_VVC'.
+  Callers assumptions might be imprecise.

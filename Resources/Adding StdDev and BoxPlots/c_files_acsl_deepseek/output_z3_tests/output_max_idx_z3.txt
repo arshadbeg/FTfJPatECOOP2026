@@ -1,0 +1,9 @@
+[kernel] Parsing max_idx.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 12 goals scheduled
+[wp] Proved goals:   14 / 14
+  Terminating:     1
+  Unreachable:     1
+  Qed:            10 (6ms-2ms-14ms)
+  Z3 4.8.12:       2 (12ms-22ms)

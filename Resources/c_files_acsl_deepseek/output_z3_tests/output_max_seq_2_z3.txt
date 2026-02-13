@@ -1,0 +1,5 @@
+[kernel] Parsing max_seq_2.c (with preprocessing)
+[kernel:annot-error] max_seq_2.c:1: Warning: 
+  unbound logic variable max_idx. Ignoring logic specification of function max_seq
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

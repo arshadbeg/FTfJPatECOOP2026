@@ -1,0 +1,3 @@
+[kernel] Parsing extracted_1043_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: No goal generated

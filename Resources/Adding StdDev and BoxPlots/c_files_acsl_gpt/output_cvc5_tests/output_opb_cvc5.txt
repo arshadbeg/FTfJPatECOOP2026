@@ -1,0 +1,5 @@
+[kernel] Parsing opb.c (with preprocessing)
+[kernel:annot-error] opb.c:3: Warning: 
+  unbound logic variable status. Ignoring logic specification of function opb
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

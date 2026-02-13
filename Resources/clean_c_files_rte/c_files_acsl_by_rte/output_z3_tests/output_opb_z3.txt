@@ -1,0 +1,9 @@
+[kernel] Parsing opb_rte.c (with preprocessing)
+[kernel] opb_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing opb.c (with preprocessing)
+  3     [kernel] opb.c:2: User Error:
+[kernel] Frama-C aborted: invalid user input.

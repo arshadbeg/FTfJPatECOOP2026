@@ -1,0 +1,11 @@
+[kernel] Warning: no input file.
+[kernel] Parsing max2_1.c (with preprocessing)
+[kernel] Warning: end of file reached before line 4
+[kernel] max2_1.c:3: 
+  syntax error:
+  Location: between lines 3 and 4, before or at token: 
+  1     int max2(int *r, int* i, int* j) {
+  2     if (!r) return -1;
+  
+  3     *r = (*i < *j) ? *j : *i;
+[kernel] Frama-C aborted: invalid user input.

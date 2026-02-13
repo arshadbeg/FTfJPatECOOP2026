@@ -1,0 +1,26 @@
+[kernel] Parsing eq_vec_Int_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] eq_vec_Int_rte.c:10: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] eq_vec_Int_rte.c:40: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 12 goals scheduled
+[wp] [Unknown] typed_eq_vec_vec_Int_assert_rte_mem_access_4 (Qed 16ms) (CVC4)
+[wp] [Unknown] typed_eq_vec_vec_Int_assert_rte_mem_access_3 (Qed 13ms) (CVC4)
+[wp] [Unknown] typed_eq_vec_vec_Int_assert_rte_mem_access_2 (Qed 11ms) (CVC4)
+[wp] [Unknown] typed_eq_vec_vec_Int_assert_rte_mem_access (Qed 10ms) (CVC4)
+[wp] [Unknown] typed_eq_vec_vec_Int_terminates_part2 (Qed 5ms) (CVC4)
+[wp] [Unknown] typed_eq_vec_Int_assert_rte_mem_access_2 (Qed 8ms) (CVC4)
+[wp] [Unknown] typed_eq_vec_Int_assert_rte_mem_access (Qed 8ms) (CVC4)
+[wp] [Unknown] typed_eq_vec_Int_terminates (Qed 6ms) (CVC4)
+[wp] Proved goals:    5 / 13
+  Unreachable:     1
+  Qed:             4 (5ms-6ms-16ms)
+  Unknown:         8
+[wp:pedantic-assigns] eq_vec_Int_rte.c:2: Warning: 
+  No 'assigns' specification for function 'eq_vec_Int'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] eq_vec_Int_rte.c:32: Warning: 
+  No 'assigns' specification for function 'eq_vec_vec_Int'.
+  Callers assumptions might be imprecise.

@@ -1,0 +1,16 @@
+arshadbeg@ArshadBegMU$ python3 wp_verifiers_analysis.py
+
+===== WP VERIFIER SUMMARY =====
+
+          runs  wp_reached  mean_success  median_success  total_timeouts  mean_qed_time_ms
+solver
+Alt-Ergo   134           0         83.14           100.0              92              2.92
+CVC4       133           0         83.14           100.0               0              2.81
+CVC5       132           0         83.14           100.0               0              3.05
+Z3         133           0         83.14           100.0              77              2.87
+
+All WP verifier figures saved in: figures_wp
+arshadbeg@ArshadBegMU$
+
+WP Verifier Analysis on OLMo3-Generated ACSL.
+For C files annotated automatically by OLMo3, all four WP back-end solvers—Alt-Ergo, CVC4, CVC5, and Z3—achieved uniform proof effectiveness, with mean success rates of 83.14% and median success consistently at 100%. Timeout behavior differed across solvers: Alt-Ergo and Z3 experienced 92 and 77 timeouts, respectively, while CVC4 and CVC5 reported no timeouts, highlighting solver-specific sensitivity to certain OLMo3-generated ACSL patterns. Mean Qed times were low and comparable (≈2.8–3.1 ms), indicating efficient proof checking where WP could run. As in previous analyses, the wp_reached count was zero for all solvers, meaning the reported proof success reflects only the subset of goals that the WP plugin successfully generated and analyzed from the OLMo3 annotations.

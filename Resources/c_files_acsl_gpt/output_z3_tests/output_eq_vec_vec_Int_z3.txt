@@ -1,0 +1,5 @@
+[kernel] Parsing eq_vec_vec_Int.c (with preprocessing)
+[kernel:annot-error] eq_vec_vec_Int.c:17: Warning: 
+  unbound logic function eq_vec_Int. Ignoring logic specification of function eq_vec_vec_Int
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

@@ -1,0 +1,15 @@
+[kernel] Parsing distance_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 4 goals scheduled
+[wp] [Timeout] typed_distance_assert_rte_signed_overflow_4 (Qed 0.64ms) (Alt-Ergo)
+[wp] [Timeout] typed_distance_assert_rte_signed_overflow_2 (Qed 0.76ms) (Alt-Ergo)
+[wp] Proved goals:    4 / 6
+  Terminating:       1
+  Unreachable:       1
+  Qed:               0 (0.64ms-0.56ms-0.85ms)
+  Alt-Ergo 2.6.2:    2 (20ms)
+  Timeout:           2
+[wp:pedantic-assigns] distance_rte.c:2: Warning: 
+  No 'assigns' specification for function 'distance'.
+  Callers assumptions might be imprecise.

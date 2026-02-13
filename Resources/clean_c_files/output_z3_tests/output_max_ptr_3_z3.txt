@@ -1,0 +1,14 @@
+[kernel] Parsing max_ptr_3.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    4 / 4
+  Terminating:     1
+  Unreachable:     1
+  Qed:             2
+[wp:pedantic-assigns] max_ptr_3.c:2: Warning: 
+  No 'assigns' specification for function 'max_ptr'.
+  Callers assumptions might be imprecise.
+[wp:pedantic-assigns] max_ptr_3.c:6: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.

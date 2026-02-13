@@ -1,0 +1,10 @@
+[kernel] Parsing main.c (with preprocessing)
+[kernel] main.c:6: User Error: 
+  Cannot resolve variable max
+  4     */
+  5     int main() {
+  6         max = maxarray(vec, LENGTH);
+            ^^^
+  7         return 0;
+  8     }
+[kernel] Frama-C aborted: invalid user input.

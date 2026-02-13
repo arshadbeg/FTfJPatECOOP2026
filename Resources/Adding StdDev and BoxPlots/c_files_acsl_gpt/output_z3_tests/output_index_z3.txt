@@ -1,0 +1,34 @@
+[kernel] Parsing index.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] index.c:23: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] index.c:22: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] index.c:44: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] index.c:43: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] 25 goals scheduled
+[wp] [Unknown] typed_add_assigns_normal (Qed 2ms) (Z3)
+[wp] [Unknown] typed_add_assigns_exit_part7 (Qed 13ms) (Z3)
+[wp] [Unknown] typed_add_assigns_exit_part6 (Qed 17ms) (Z3)
+[wp] [Unknown] typed_add_assigns_exit_part5 (Qed 15ms) (Z3)
+[wp] [Unknown] typed_add_assigns_exit_part4 (Qed 9ms) (Z3)
+[wp] [Unknown] typed_add_assigns_exit_part3 (Qed 8ms) (Z3)
+[wp] [Unknown] typed_add_assigns_exit_part2 (Qed 5ms) (Z3)
+[wp] [Unknown] typed_add_assigns_exit_part1 (Qed 2ms) (Z3)
+[wp] [Unknown] typed_add_terminates_part3 (Qed 5ms) (Z3)
+[wp] [Unknown] typed_add_terminates_part2 (Qed 2ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_terminates_part3 (Qed 5ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_terminates_part2 (Qed 2ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_assigns_exit_part2 (Qed 5ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_assigns_exit_part1 (Qed 5ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_assigns_normal (Qed 3ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_assigns_exit_part5 (Qed 7ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_assigns_exit_part4 (Qed 9ms) (Z3)
+[wp] [Unknown] typed_scalar_mult_assigns_exit_part3 (Qed 11ms) (Z3)
+[wp] Proved goals:    9 / 27
+  Terminating:     1
+  Unreachable:     1
+  Qed:             7 (2ms-5ms-17ms)
+  Unknown:        18
+[wp:pedantic-assigns] index.c:6: Warning: 
+  No 'assigns' specification for function 'index'.
+  Callers assumptions might be imprecise.

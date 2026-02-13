@@ -1,0 +1,18 @@
+arshadbeg@ArshadBegMU$ python3 wp_verifiers_analysis.py
+
+===== WP VERIFIER SUMMARY =====
+
+          runs  mean_success  median_success  total_timeouts  mean_qed_time_ms
+solver
+Alt-Ergo   207         71.93           66.67             278              1.25
+CVC4       205         72.23           66.67              27              1.16
+CVC5       203         72.19           66.67              33              1.16
+Z3         205         72.57           66.67              91              1.22
+
+All WP verifier figures saved in: figures_wp
+arshadbeg@ArshadBegMU$
+
+Analysis Paragraph:
+
+Verifier comparison.
+Across all 355 RTE-annotated C files, the four WP back-end solvers exhibit comparable proof effectiveness, with mean proof success rates clustered around 72% and identical median success values (66.67%). Z3 attains the highest average success rate (72.57%), closely followed by CVC4 and CVC5, while Alt-Ergo performs marginally lower. However, substantial differences arise in solver robustness: Alt-Ergo incurs a significantly higher number of timeouts (278) compared to CVC4 (27) and CVC5 (33), with Z3 exhibiting intermediate behavior (91 timeouts). Mean Qed times are consistently low and similar across solvers (≈1.2 ms), indicating that performance differences are primarily driven by timeout behavior rather than proof execution speed. Overall, CVC4 and CVC5 demonstrate the best balance between proof success and stability on automatically generated RTE annotations.

@@ -1,0 +1,14 @@
+[kernel] Parsing matcher.c (with preprocessing)
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] FRAMAC_SHARE/libc/string.h:172: Warning: 
+  Neither code nor explicit exits and terminates for function strlen,
+   generating default clauses. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 3 goals scheduled
+[wp] [Timeout] typed_matcher_call_strlen_requires_valid_string_s (Qed 1ms) (CVC4)
+[wp] Proved goals:    2 / 3
+  Qed:             2 (0.43ms)
+  Timeout:         1
+[wp:pedantic-assigns] matcher.c:4: Warning: 
+  No 'assigns' specification for function 'matcher'.
+  Callers assumptions might be imprecise.

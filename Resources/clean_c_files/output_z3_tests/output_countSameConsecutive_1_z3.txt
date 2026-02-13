@@ -1,0 +1,17 @@
+[kernel] Parsing countSameConsecutive_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] countSameConsecutive_1.c:11: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] countSameConsecutive_1.c:6: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 2 goals scheduled
+[wp] [Timeout] typed_countSameConsecutive_terminates_part2 (Qed 4ms) (Z3)
+[wp] [Timeout] typed_countSameConsecutive_terminates_part1 (Qed 3ms) (Z3)
+[wp] Proved goals:    1 / 3
+  Unreachable:     1
+  Qed:             0 (3ms-4ms)
+  Timeout:         2
+[wp:pedantic-assigns] countSameConsecutive_1.c:1: Warning: 
+  No 'assigns' specification for function 'countSameConsecutive'.
+  Callers assumptions might be imprecise.

@@ -1,0 +1,5 @@
+[kernel] Parsing main_3.c (with preprocessing)
+[kernel:annot-error] main_3.c:1: Warning: 
+  unbound logic variable gimmeOne. Ignoring logic specification of function main
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

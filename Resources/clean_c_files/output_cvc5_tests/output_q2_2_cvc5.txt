@@ -1,0 +1,13 @@
+[kernel] Parsing q2_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] q2_2.c:4: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_q2_terminates (Qed 2ms) (CVC5)
+[wp] Proved goals:    1 / 2
+  Unreachable:     1
+  Qed:             0 (2ms)
+  Unknown:         1
+[wp:pedantic-assigns] q2_2.c:1: Warning: 
+  No 'assigns' specification for function 'q2'.
+  Callers assumptions might be imprecise.

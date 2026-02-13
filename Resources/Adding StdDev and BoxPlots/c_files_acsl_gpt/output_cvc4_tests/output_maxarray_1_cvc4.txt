@@ -1,0 +1,5 @@
+[kernel] Parsing maxarray_1.c (with preprocessing)
+[kernel:annot-error] maxarray_1.c:5: Warning: 
+  unbound logic variable max. Ignoring logic specification of function maxarray
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

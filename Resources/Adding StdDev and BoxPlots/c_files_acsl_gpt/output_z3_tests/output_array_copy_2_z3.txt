@@ -1,0 +1,17 @@
+[kernel] Parsing array_copy_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] array_copy_2.c:10: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] array_copy_2.c:14: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 5 goals scheduled
+[wp] [Unknown] typed_array_copy_assigns_part2 (Qed 1ms) (Z3)
+[wp] [Unknown] typed_array_copy_assigns_part1 (Qed 2ms) (Z3)
+[wp] [Unknown] typed_array_copy_ensures (Qed 5ms) (Z3)
+[wp] [Unknown] typed_array_copy_terminates_part2 (Qed 1ms) (Z3)
+[wp] [Unknown] typed_array_copy_terminates_part1 (Qed 2ms) (Z3)
+[wp] Proved goals:    1 / 6
+  Unreachable:     1
+  Qed:             0 (1ms-2ms-5ms)
+  Unknown:         5

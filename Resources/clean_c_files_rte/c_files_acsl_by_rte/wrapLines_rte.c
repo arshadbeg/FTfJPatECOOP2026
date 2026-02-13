@@ -1,0 +1,10 @@
+[kernel] Warning: no input file.
+[kernel] Parsing wrapLines.c (with preprocessing)
+[kernel] Warning: end of file reached before line 3
+[kernel] wrapLines.c:2: 
+  syntax error:
+  Location: between lines 2 and 3, before or at token: 
+  1     
+  
+  2     void wrapLines(char* s, int length, int n) {
+[kernel] Frama-C aborted: invalid user input.

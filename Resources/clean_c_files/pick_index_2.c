@@ -1,0 +1,1 @@
+int pick_index(int n) { return 0; }

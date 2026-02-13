@@ -1,0 +1,14 @@
+[kernel] Parsing main_2.c (with preprocessing)
+[kernel:typing:implicit-function-declaration] main_2.c:4: Warning: 
+  Calling undeclared function swap. Old style K&R code?
+[wp] Running WP plugin...
+[kernel:annot:missing-spec] main_2.c:4: Warning: 
+  Neither code nor specification for function swap,
+   generating default exits, assigns and terminates. See -generated-spec-* options for more info
+[wp] Warning: Missing RTE guards
+[wp] 2 goals scheduled
+[wp] Proved goals:    2 / 2
+  Qed:             2
+[wp:pedantic-assigns] main_2.c:1: Warning: 
+  No 'assigns' specification for function 'main'.
+  Callers assumptions might be imprecise.

@@ -1,0 +1,13 @@
+[kernel] Parsing while_3.c (with preprocessing)
+[kernel] while_3.c:9: 
+  syntax error:
+  Location: between lines 9 and 10
+  7     // int indexOf(char*, int, int, int) returns index of char in substring or -1
+  8     
+  
+  9     //@ requires s != NULL;
+  10    //@ requires n >= 0;
+  
+  11    //@ requires lastBreak >= 0;
+  12    //@ requires lastSpace == -1 || (lastSpace < n && s[lastSpace] == ' ');
+[kernel] Frama-C aborted: invalid user input.

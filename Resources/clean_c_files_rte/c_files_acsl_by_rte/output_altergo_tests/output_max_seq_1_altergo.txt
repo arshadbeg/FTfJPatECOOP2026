@@ -1,0 +1,9 @@
+[kernel] Parsing max_seq_1_rte.c (with preprocessing)
+[kernel] max_seq_1_rte.c:1: 
+  syntax error:
+  Location: line 1, column 1, before or at token: [
+  1     [kernel] Warning: no input file.
+        ^
+  2     [kernel] Parsing max_seq_1.c (with preprocessing)
+  3     [kernel:typing:implicit-function-declaration] max_seq_1.c:4: Warning:
+[kernel] Frama-C aborted: invalid user input.

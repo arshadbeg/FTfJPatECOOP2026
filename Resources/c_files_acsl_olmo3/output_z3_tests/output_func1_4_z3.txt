@@ -1,0 +1,12 @@
+[kernel] Parsing func1_4.c (with preprocessing)
+[kernel] func1_4.c:15: User Error: 
+  forward declaration of enum only allowed for GCC machdeps; see option -machdep or run 'frama-c -machdep help' for the list of available machdeps
+[kernel] func1_4.c:16: User Error: 
+  Cannot resolve variable equilateral
+  14    */
+  15    enum type1 func1(int a, int b, int c) {
+  16      if (a == b && b == c) return equilateral;
+                                       ^^^^^^^^^^^
+  17      else if (a == b || b == c || c == a) return isoscele;
+  18      else return scalene;
+[kernel] Frama-C aborted: invalid user input.

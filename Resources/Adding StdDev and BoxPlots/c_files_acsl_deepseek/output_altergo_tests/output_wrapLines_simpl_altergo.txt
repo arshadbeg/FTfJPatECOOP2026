@@ -1,0 +1,10 @@
+[kernel] Parsing wrapLines_simpl.c (with preprocessing)
+[kernel] Warning: end of file reached before line 10
+[kernel] wrapLines_simpl.c:9: 
+  syntax error:
+  Location: between lines 9 and 10, before or at token: 
+  7           (\exists integer j; i+1 <= j < n && (j-i) > lineLength && s[j] == ' '));
+  8     */
+  
+  9     void wrapLines_simpl(char* s, int lineLength, int n) {
+[kernel] Frama-C aborted: invalid user input.

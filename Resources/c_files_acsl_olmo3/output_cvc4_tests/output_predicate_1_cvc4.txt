@@ -1,0 +1,10 @@
+[kernel] Parsing predicate_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] Warning: No goal generated
+[wp] Proved goals:    2 / 2
+  Terminating:     1
+  Unreachable:     1
+[wp:pedantic-assigns] predicate_1.c:10: Warning: 
+  No 'assigns' specification for function 'predicate'.
+  Callers assumptions might be imprecise.

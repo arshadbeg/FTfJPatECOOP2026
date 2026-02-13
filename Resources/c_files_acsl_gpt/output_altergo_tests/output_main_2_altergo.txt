@@ -1,0 +1,5 @@
+[kernel] Parsing main_2.c (with preprocessing)
+[kernel:annot-error] main_2.c:3: Warning: 
+  unbound logic variable b. Ignoring logic specification of function main
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

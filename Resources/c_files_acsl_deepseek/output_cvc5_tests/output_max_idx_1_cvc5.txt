@@ -1,0 +1,11 @@
+[kernel] Parsing max_idx_1.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 12 goals scheduled
+[wp] [Unknown] typed_max_idx_loop_invariant_3_preserved (Qed 13ms) (CVC5)
+[wp] [Unknown] typed_max_idx_ensures_2 (Qed 5ms) (CVC5)
+[wp] Proved goals:   12 / 14
+  Terminating:     1
+  Unreachable:     1
+  Qed:            10 (5ms-2ms-13ms)
+  Unknown:         2

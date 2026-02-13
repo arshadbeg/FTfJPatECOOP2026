@@ -1,0 +1,30 @@
+arshadbeg@ArshadBegMU$ python3 eva_analysis_plots.py
+
+===== EVA DATASET SUMMARY =====
+
+Total files                   : 355
+Successful analyses           : 145
+Failed analyses               : 210
+Mean stmt coverage (%)        : 81.40689655172413
+Median stmt coverage (%)      : 81.0
+Mean alarms                   : 0.2896551724137931
+Max alarms                    : 3.0
+Files with kernel warnings    : 19
+
+All figures saved in: figures
+arshadbeg@ArshadBegMU$
+
+“Although EVA successfully analyzed only 40.8% of the files, successful analyses achieved a median statement coverage of 81%, with alarm generation remaining sparse across the dataset.”
+
+arshadbeg@ArshadBegMU$ python3 eva_analysis_plots.py
+
+===== EVA SUMMARY (SUCCESS VS FAILED) =====
+
+   Dataset  Files  Mean coverage (%)  Median coverage (%)  Mean alarms  Max alarms  Files with kernel warnings
+ All files    355          81.406897                 81.0     0.118310           3                          19
+Successful    145          81.406897                 81.0     0.289655           3                          19
+    Failed    210                NaN                  NaN     0.000000           0                           0
+
+All figures saved in: figures
+arshadbeg@ArshadBegMU$
+

@@ -1,0 +1,9 @@
+[kernel] Parsing inswap_2.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 5 goals scheduled
+[wp] Proved goals:    7 / 7
+  Terminating:     1
+  Unreachable:     1
+  Qed:             3 (3ms-1ms-4ms)
+  CVC4 1.8:        2 (16ms-28ms)

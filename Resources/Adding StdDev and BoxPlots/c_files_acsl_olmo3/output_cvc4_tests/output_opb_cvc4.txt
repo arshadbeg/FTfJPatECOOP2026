@@ -1,0 +1,10 @@
+[kernel] Parsing opb.c (with preprocessing)
+[kernel] opb.c:8: 
+  syntax error:
+  Location: between lines 8 and 9, before or at token: }
+  6     
+  7     void opb() {
+  
+  8       status = 1; //@ ensures status == 1;
+  9     }
+[kernel] Frama-C aborted: invalid user input.

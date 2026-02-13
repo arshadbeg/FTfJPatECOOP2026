@@ -1,0 +1,22 @@
+[kernel] Parsing array_copy_2_rte.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] array_copy_2_rte.c:7: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] array_copy_2_rte.c:17: Warning: 
+  Missing assigns clause (assigns 'everything' instead)
+[wp] 9 goals scheduled
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_4 (Qed 2ms) (CVC4)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_3 (Qed 2ms) (CVC4)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access_2 (Qed 2ms) (CVC4)
+[wp] [Unknown] typed_array_copy_assert_rte_mem_access (Qed 2ms) (CVC4)
+[wp] [Unknown] typed_array_copy_assert_rte_signed_overflow (Qed 0.76ms) (CVC4)
+[wp] [Unknown] typed_array_copy_terminates_part2 (Qed 1ms) (CVC4)
+[wp] [Unknown] typed_array_copy_terminates_part1 (Qed 1ms) (CVC4)
+[wp] Proved goals:    3 / 10
+  Unreachable:     1
+  Qed:             2 (0.76ms-1ms-2ms)
+  Unknown:         7
+[wp:pedantic-assigns] array_copy_2_rte.c:2: Warning: 
+  No 'assigns' specification for function 'array_copy'.
+  Callers assumptions might be imprecise.

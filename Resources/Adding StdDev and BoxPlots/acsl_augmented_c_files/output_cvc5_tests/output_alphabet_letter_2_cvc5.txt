@@ -1,0 +1,4 @@
+[kernel] Parsing alphabet_letter_2.c (with preprocessing)
+[kernel:annot-error] alphabet_letter_2.c:2: Warning: unexpected token ';'
+[kernel] User Error: warning annot-error treated as fatal error.
+[kernel] Frama-C aborted: invalid user input.

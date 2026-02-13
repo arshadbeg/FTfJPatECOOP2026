@@ -1,0 +1,9 @@
+[kernel] Parsing extracted_236.c (with preprocessing)
+[kernel:typing:implicit-function-declaration] extracted_236.c:2: Warning: 
+  Calling undeclared function indexOf. Old style K&R code?
+[kernel] extracted_236.c:2: User Error: 
+  Cannot resolve variable n
+  1     int lastBreak = -1;
+  2       int lastSpace = indexOf(s, ' ', 0, n);
+                                             ^
+[kernel] Frama-C aborted: invalid user input.

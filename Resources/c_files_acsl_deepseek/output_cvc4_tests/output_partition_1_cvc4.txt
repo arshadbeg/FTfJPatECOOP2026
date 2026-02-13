@@ -1,0 +1,12 @@
+[kernel] Parsing partition_1.c (with preprocessing)
+[kernel:CERT:MSC:37] partition_1.c:14: Warning: 
+  Body of function partition falls-through. Adding a return statement
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] 7 goals scheduled
+[wp] [Unknown] typed_partition_assert_missing_return (Qed 1ms) (CVC4)
+[wp] Proved goals:    8 / 9
+  Terminating:     1
+  Unreachable:     1
+  Qed:             6 (0.20ms)
+  Unknown:         1

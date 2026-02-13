@@ -1,0 +1,13 @@
+[kernel] Parsing dfa_4.c (with preprocessing)
+[wp] Running WP plugin...
+[wp] Warning: Missing RTE guards
+[wp] dfa_4.c:7: Warning: Missing assigns clause (assigns 'everything' instead)
+[wp] 1 goal scheduled
+[wp] [Unknown] typed_dfa_terminates (Qed 6ms) (CVC4)
+[wp] Proved goals:    1 / 2
+  Unreachable:     1
+  Qed:             0 (6ms)
+  Unknown:         1
+[wp:pedantic-assigns] dfa_4.c:1: Warning: 
+  No 'assigns' specification for function 'dfa'.
+  Callers assumptions might be imprecise.
