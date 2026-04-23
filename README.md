@@ -2,13 +2,6 @@
 
 For Camera-Ready Response to Reviewers
 
-# We have added history logs of prompts given to three LLMs giving input 355 C files
-
-Folder Link:
-https://github.com/arshadbeg/FTfJPatECOOP2026/tree/main/Resources/OneShotPromptHistory-3LLMs/
-
----
-
 ## Sample ACSL generated for array_copy.c by five approaches
 
 ---
@@ -176,3 +169,10 @@ void array_copy(int *src, int *dst, int n) {
     }
 }
 ```
+
+# We have added history logs of prompts given to three LLMs giving input 355 C files
+
+Folder Link:
+https://github.com/arshadbeg/FTfJPatECOOP2026/tree/main/Resources/OneShotPromptHistory-3LLMs/
+
+---
